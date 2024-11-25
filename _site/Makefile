@@ -9,7 +9,7 @@ clean: latexclean
 pdf:
 	xelatex -output-directory=latex latex/main.tex -
 	xelatex -output-directory=latex latex/main.tex -
-	cp latex/main.pdf assets/files/Sledzieski_Samuel_CV.pdf
+	cp latex/main.pdf assets/files/latex_autoCV.pdf
 
 .PHONY: latexclean
 latexclean:
