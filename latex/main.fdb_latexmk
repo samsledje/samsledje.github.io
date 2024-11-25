@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1732553693.03577 "/Users/ssledzieski/GitHub/samsledje.github.io/_site/latex/main.tex" "main.pdf" "main" 1732553693.3221 2
-  "/Users/ssledzieski/GitHub/samsledje.github.io/_site/latex/main.tex" 1730195820 22877 9f72e4916d46770da6f971c8c3e2d2eb ""
+["pdflatex"] 1732554021.37862 "/Users/ssledzieski/GitHub/samsledje.github.io/latex/main.tex" "main.pdf" "main" 1732554021.66426 2
+  "/Users/ssledzieski/GitHub/samsledje.github.io/latex/main.tex" 1732554020.55176 22911 3b9c27267be62c05170684b9b073216c ""
   "/usr/local/texlive/2024/texmf-dist/tex/generic/atbegshi/atbegshi.sty" 1575674566 24708 5584a51a7101caf7e6bbf1fc27d8f7b1 ""
   "/usr/local/texlive/2024/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty" 1576625341 40635 c40361e206be584d448876bba8a64a3b ""
   "/usr/local/texlive/2024/texmf-dist/tex/generic/bitset/bitset.sty" 1576016050 33961 6b5c75130e435b2bfdb9f480a09a39f9 ""
@@ -51,10 +51,10 @@
   "/usr/local/texlive/2024/texmf-dist/web2c/texmf.cnf" 1708706663 41649 5d6ae549fbbcb850a863f69aa41f3d10 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1732551768 8221431 1df14599f0cb69cefa3a46008c99ffa5 ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "datetime2.sty" 1730109573 48788 fe601bca80c04b54fa96f8c64163c6ef ""
-  "main.aux" 0 -1 0 "pdflatex"
-  "main.tex" 1730195820 22877 9f72e4916d46770da6f971c8c3e2d2eb ""
-  "simpleresumecv.cls" 1730109573 11201 cd87014312c3fe253cb815db846ed5e9 ""
+  "datetime2.sty" 1730109573.78262 48788 fe601bca80c04b54fa96f8c64163c6ef ""
+  "main.aux" 1732554021.37793 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "main.tex" 1732554020.55176 22911 3b9c27267be62c05170684b9b073216c ""
+  "simpleresumecv.cls" 1730109573.78308 11201 cd87014312c3fe253cb815db846ed5e9 ""
   (generated)
   "main.aux"
   "main.log"

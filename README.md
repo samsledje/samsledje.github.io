@@ -23,6 +23,12 @@ make
 make serve
 ```
 
+## Build CV PDF only
+
+```bash
+make cv
+```
+
 ## Subdomain Records
 
 ### Software
