@@ -1,5 +1,16 @@
 # Personal Website
 
+## Setting up the dev environment
+
+```bash
+brew install ruby
+brew install node
+brew install --cask mactex
+gem install bundler
+rm Gemfile.lock
+bundle install
+```
+
 ## Preparing Files
 
 ```bash
@@ -9,7 +20,7 @@ make
 ## Local Serving
 
 ```bash
-bundle exec jekyll serve
+make serve
 ```
 
 ## Subdomain Records
