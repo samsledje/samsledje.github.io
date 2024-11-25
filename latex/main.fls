@@ -1,8 +1,8 @@
-PWD /Users/ssledzieski/GitHub/samsledje.github.io/_site/latex
+PWD /Users/ssledzieski/GitHub/samsledje.github.io/latex
 INPUT /usr/local/texlive/2024/texmf.cnf
 INPUT /usr/local/texlive/2024/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /Users/ssledzieski/GitHub/samsledje.github.io/_site/latex/main.tex
+INPUT /Users/ssledzieski/GitHub/samsledje.github.io/latex/main.tex
 OUTPUT main.log
 INPUT ./simpleresumecv.cls
 INPUT simpleresumecv.cls
