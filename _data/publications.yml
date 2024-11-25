@@ -74,7 +74,7 @@
 
 - title: Contrastive learning in protein language space predicts interactions between drugs and protein targets
   type: journal
-  authors: "Sledzieski*, Singh*, Bryson, Cowen, Berger"
+  authors: "Singh*, Sledzieski*, Bryson, Cowen, Berger"
   venue: "Proceedings of the National Academy of Sciences"
   extra: "120.24 (2023): e2220778120"
   date: 2023-06-08
@@ -107,9 +107,15 @@
   pdf: "https://www.pnas.org/doi/10.1073/pnas.2405840121"
   code: "https://cb.csail.mit.edu/cb/topsyturvy/"
 
-- title: Learning the Language of Antibody Hypervariability
+- title: "Learning the Language of Antibody Hypervariability"
   type: journal
   authors: "Singh, Im, Qiu, Macnkess, Gupta, Sorenson, Sledzieski, Erlach, Wendt, Nanfack, Bryson, Berger"
   venue: "Proceedings of the National Academy of Sciences"
   extra: "In Review"
   date: 2024-09-16
+
+- title: "Decoding the Functional Interactome of Non-Model Organisms with PHILHARMONIC"
+  type: preprint
+  authors: "Sledzieski, Versavel, Singh, Ocitti, Devkota, Kumar, Shhpilker, Roger, Yang, Lewinski, Putnam, Berger, Klein-Seetharaman, Cowen"
+  venue: "bioRxiv"
+  date: 2024-10-29

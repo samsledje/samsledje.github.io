@@ -1,25 +1,7 @@
-- title: "TreeFix-TP"
-  type: "Phylogenetics"
-  url: "https://github.com/samsledje/TreeFix-TP"
-  publication: "https://www.worldscientific.com/doi/pdf/10.1142/9789811232701_0012"
-  description: ""
-
 - title: "D-SCRIPT"
   type: "Protein Networks"
   url: "https://cb.csail.mit.edu/cb/dscript/"
   publication: "https://www.cell.com/cell-systems/pdfExtended/S2405-4712(21)00333-1"
-  description: ""
-
-- title: "Topsy Turvy"
-  type: "Protein Networks"
-  url: "https://cb.csail.mit.edu/cb/topsyturvy/"
-  publication: "https://academic.oup.com/bioinformatics/article/38/Supplement_1/i264/6617505"
-  description: ""
-
-- title: "VirDTL"
-  type: "Phylogenetics"
-  url: "https://github.com/suz11001/virDTL"
-  publication: "https://www.liebertpub.com/doi/10.1089/cmb.2021.0507"
   description: ""
 
 - title: "ConPLex"
@@ -34,10 +16,10 @@
   publication: "https://academic.oup.com/bioinformatics/article/39/11/btad663/7332153"
   description: ""
 
-- title: "Seq2Symm"
-  type: "Protein Structure"
-  url: "https://github.com/microsoft/seq2symm/"
-  publication: ""
+- title: "Topsy Turvy"
+  type: "Protein Networks"
+  url: "https://cb.csail.mit.edu/cb/topsyturvy/"
+  publication: "https://academic.oup.com/bioinformatics/article/38/Supplement_1/i264/6617505"
   description: ""
 
 - title: "PHILHARMONIC"
@@ -45,3 +27,22 @@
   url: "https://github.com/samsledje/philharmonic/"
   publication: ""
   description: ""
+
+- title: "Seq2Symm"
+  type: "Protein Structure"
+  url: "https://github.com/microsoft/seq2symm/"
+  publication: ""
+  description: ""
+
+- title: "TreeFix-TP"
+  type: "Phylogenetics"
+  url: "https://github.com/samsledje/TreeFix-TP"
+  publication: "https://www.worldscientific.com/doi/pdf/10.1142/9789811232701_0012"
+  description: ""
+
+- title: "VirDTL"
+  type: "Phylogenetics"
+  url: "https://github.com/suz11001/virDTL"
+  publication: "https://www.liebertpub.com/doi/10.1089/cmb.2021.0507"
+  description: ""
+
