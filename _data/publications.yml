@@ -113,9 +113,13 @@
   venue: "Proceedings of the National Academy of Sciences"
   extra: "In Press"
   date: 2024-09-16
+  pdf: "https://www.biorxiv.org/content/10.1101/2023.04.26.538476v2"
+  code: "https://github.com/rs239/abmap"
 
 - title: "Decoding the Functional Interactome of Non-Model Organisms with PHILHARMONIC"
   type: preprint
   authors: "Sledzieski, Versavel, Singh, Ocitti, Devkota, Kumar, Shhpilker, Roger, Yang, Lewinski, Putnam, Berger, Klein-Seetharaman, Cowen"
   venue: "bioRxiv"
   date: 2024-10-29
+  pdf: "https://www.biorxiv.org/content/10.1101/2024.10.25.620267v1"
+  code: "https://github.com/samsledje/philharmonic"
