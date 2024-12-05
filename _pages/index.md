@@ -17,7 +17,7 @@ I did my undergraduate degree in the [Computational Biology Research Lab][2] at 
 [1]: https://uconn.edu/ "University of Connecticut"
 [2]: https://compbio.engr.uconn.edu/ "Computational Biology Research Lab"
 [3]: https://compbio.engr.uconn.edu/software/treefix-tp/ "TreeFix-TP"
-[4]: https://github.com/suz1101/virDTL "virDTL"
+[4]: https://github.com/suz11001/virDTL "virDTL"
 
 [5]: http://web.mit.edu/ "MIT"
 [6]: https://www.eecs.mit.edu/ "Electrical Engineering and Computer Science"
