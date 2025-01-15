@@ -13,7 +13,8 @@ repository               : "samsledje/samsledje.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "/assets/images/profile.png"
+  # avatar           : "/assets/images/profile.png"
+  avatar           : "/assets/images/Sledzieski_Samuel_Headshot.jpg"
   name             : "Samuel Sledzieski"
   pronouns         : "he/him" 
   bio              : "Flatiron Research Fellow, Center for Computational Biology"
