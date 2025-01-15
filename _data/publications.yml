@@ -111,9 +111,9 @@
   type: journal
   authors: "Singh, Im, Qiu, Macnkess, Gupta, Sorenson, Sledzieski, Erlach, Wendt, Nanfack, Bryson, Berger"
   venue: "Proceedings of the National Academy of Sciences"
-  extra: "In Press"
+  extra: "122.1 (2025): e2418918121"
   date: 2024-09-16
-  pdf: "https://www.biorxiv.org/content/10.1101/2023.04.26.538476v2"
+  pdf: "https://www.pnas.org/doi/epub/10.1073/pnas.2418918121"
   code: "https://github.com/rs239/abmap"
 
 - title: "Decoding the Functional Interactome of Non-Model Organisms with PHILHARMONIC"
@@ -123,3 +123,11 @@
   date: 2024-10-29
   pdf: "https://www.biorxiv.org/content/10.1101/2024.10.25.620267v1"
   code: "https://github.com/samsledje/philharmonic"
+
+- title: "Insulin Signaling and Pharmacology in Corals"
+  type: preprint
+  authors: "Vizgaudis, Kumar, Olaosebikan, Roger, Brenner, Sledzieski, Yang, Lewinski, Singh, Daniels, Cowen, Klein-Seetharaman"
+  venue: "Authorea Preprints"
+  extra: "posted 31 January 2024, 10.22541/au.170666200.07483513/v1"
+  date: 2024-01-31
+  pdf: "https://www.authorea.com/users/416881/articles/710195-insulin-signaling-and-pharmacology-in-corals"
