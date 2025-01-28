@@ -40,7 +40,8 @@ author:
   # mastodon         : # URL
   # medium           : # URL
   # soundcloud       : # Username
-  twitter          : "@samsledzieski"
+  # twitter          : "@samsledzieski"
+  bluesky          : "samsl.io"
   wikipedia        : "samsledje"
   youtube          : "@SamuelSledzieskiResearch"
 
