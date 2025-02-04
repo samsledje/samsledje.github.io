@@ -37,12 +37,11 @@
   date: 2022-04-22
   pdf: "https://www.biorxiv.org/content/10.1101/2022.04.21.489103v1.full.pdf"
 
-
 - title: "Topsy-Turvy: integrating a global view into sequence-based PPI prediction"
   type: journal
   authors: "Singh*, Devkota*, Sledzieski, Berger, Cowen"
   venue: "Bioinformatics"
-  extra: "38.Supplement_1 (July 2022): i264–i272"
+  extra: "38.Supplement 1 (July 2022): i264–i272"
   date: 2022-06-27
   pdf: "https://academic.oup.com/bioinformatics/article/38/Supplement_1/i264/6617505"
   code: "https://cb.csail.mit.edu/cb/topsyturvy/"
@@ -64,7 +63,7 @@
   date: 2022-11-03
   pdf: "https://www.biorxiv.org/content/10.1101/2022.11.03.515086v1.full.pdf"
 
-- title: "Transfer of knowledge from model organisms to evolutionarily distant non-model organisms: The coral <i>Pocillopora damicornis</i> membrane signaling receptome"
+- title: "Transfer of knowledge from model organisms to evolutionarily distant non-model organisms: The coral Pocillopora damicornis membrane signaling receptome"
   type: journal
   authors: "Kumar, Brenner, Sledzieski, Olaosebikan, Lynn-Goin, Putnam, Yang, Lewinski, Singh, Daniels, Cowen, Klein-Seetharaman"
   venue: "Plos one"
@@ -120,6 +119,7 @@
   type: preprint
   authors: "Sledzieski, Versavel, Singh, Ocitti, Devkota, Kumar, Shhpilker, Roger, Yang, Lewinski, Putnam, Berger, Klein-Seetharaman, Cowen"
   venue: "bioRxiv"
+  extra: posted 21 Oct 2024, 10.1101/2024.10.25.620267
   date: 2024-10-29
   pdf: "https://www.biorxiv.org/content/10.1101/2024.10.25.620267v1"
   code: "https://github.com/samsledje/philharmonic"

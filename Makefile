@@ -7,9 +7,10 @@ clean: latexclean ## Clean the site
 
 .PHONY: cv
 cv: ## Generate the CV in PDF format
+	python scripts/build_latex_source.py
 	xelatex -output-directory=latex latex/main.tex -
 	xelatex -output-directory=latex latex/main.tex -
-	cp latex/main.pdf assets/files/latex_autoCV.pdf
+	cp latex/main.pdf assets/files/Sledzieski_Samuel_CV.pdf
 
 .PHONY: latexclean
 latexclean: ## Clean the latex build files
