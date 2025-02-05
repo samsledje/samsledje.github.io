@@ -2,6 +2,8 @@
 
 ## Setting up the dev environment
 
+Installation is easiest with [homebrew](https://brew.sh/).
+
 ```bash
 brew install ruby
 brew install node
