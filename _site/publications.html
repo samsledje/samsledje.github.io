@@ -7,22 +7,47 @@
 
 <meta charset="utf-8">
 
-<link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="Samuel Sledzieski Feed">
+<link href="https://samsl.io/feed.xml" type="application/atom+xml" rel="alternate" title="Samuel Sledzieski Feed">
 
 <!-- http://t.co/dKP3o1e -->
 <meta name="HandheldFriendly" content="True">
 <meta name="MobileOptimized" content="320">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<link rel="icon" type="image/ico" href="http://localhost:4000/assets/images/favicon.ico" sizes="32x32">
+<link rel="icon" type="image/ico" href="https://samsl.io/assets/images/favicon.ico" sizes="32x32">
 
 <script>
   document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+  document.addEventListener('DOMContentLoaded', function() {
+    const toggleButton = document.getElementById('toggle-all-details');
+    if (!toggleButton) return;
+    
+    // Initial state
+    let allExpanded = false;
+    
+    toggleButton.addEventListener('click', function() {
+      // Get all details elements
+      const allDetails = document.querySelectorAll('details');
+      
+      // Toggle the state
+      allExpanded = !allExpanded;
+      
+      // Apply the new state to all details elements
+      allDetails.forEach(function(details) {
+        details.open = allExpanded;
+      });
+      
+      // Update button text
+      toggleButton.textContent = allExpanded ? 'Collapse All' : 'Expand All';
+    });
+  });
+
 </script>
 
 <!-- For all browsers -->
-<link rel="stylesheet" href="http://localhost:4000/assets/css/main.css">
-<link rel="stylesheet" href="http://localhost:4000/assets/css/academicons.css"/>
+<link rel="stylesheet" href="https://samsl.io/assets/css/main.css">
+<link rel="stylesheet" href="https://samsl.io/assets/css/collapse.css">
+<link rel="stylesheet" href="https://samsl.io/assets/css/academicons.css"/>
 
 <meta http-equiv="cleartype" content="on">
 
@@ -37,19 +62,19 @@
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
         <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg"><a href="http://localhost:4000/">Home</a></li>
+          <li class="masthead__menu-item masthead__menu-item--lg"><a href="https://samsl.io/">Home</a></li>
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/publications">Publications</a></li>
+            <li class="masthead__menu-item"><a href="https://samsl.io/publications">Publications</a></li>
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/software">Software</a></li>
+            <li class="masthead__menu-item"><a href="https://samsl.io/software">Software</a></li>
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/talks">Talks</a></li>
+            <li class="masthead__menu-item"><a href="https://samsl.io/talks">Talks</a></li>
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/assets/files/Sledzieski_Samuel_CV.pdf">CV</a></li>
+            <li class="masthead__menu-item"><a href="https://samsl.io/assets/files/Sledzieski_Samuel_CV.pdf">CV</a></li>
           
         </ul>
       </nav>
@@ -64,19 +89,19 @@
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
         <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg"><a href="http://localhost:4000/">Home</a></li>
+          <li class="masthead__menu-item masthead__menu-item--lg"><a href="https://samsl.io/">Home</a></li>
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/publications">Publications</a></li>
+            <li class="masthead__menu-item"><a href="https://samsl.io/publications">Publications</a></li>
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/software">Software</a></li>
+            <li class="masthead__menu-item"><a href="https://samsl.io/software">Software</a></li>
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/talks">Talks</a></li>
+            <li class="masthead__menu-item"><a href="https://samsl.io/talks">Talks</a></li>
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/assets/files/Sledzieski_Samuel_CV.pdf">CV</a></li>
+            <li class="masthead__menu-item"><a href="https://samsl.io/assets/files/Sledzieski_Samuel_CV.pdf">CV</a></li>
           
         </ul>
       </nav>
@@ -97,7 +122,7 @@
     
       <div class="author__avatar">
         
-          <img src="http://localhost:4000/assets/images/Sledzieski_Samuel_Headshot.jpg" class="author__avatar" alt="Samuel Sledzieski">
+          <img src="https://samsl.io/assets/images/Sledzieski_Samuel_Headshot.jpg" class="author__avatar" alt="Samuel Sledzieski">
         
       </div>
     
@@ -185,6 +210,64 @@
 <h3>Journal</h3>
 <ul>
 
+
+<li>
+
+
+    
+        Kshirsagar,
+     
+
+    
+        Meller,
+     
+
+    
+        Humphreys,
+     
+
+    
+        <b>Sledzieski</b>,
+     
+
+    
+        Xu,
+     
+
+    
+        Dodhia,
+     
+
+    
+        Horvitz,
+     
+
+    
+        Berger,
+     
+
+    
+        Bowman,
+     
+
+    
+        Lavista Ferres,
+     
+
+    
+        Baker,
+     
+
+    
+        Baek,
+     
+
+"Rapid and accurate prediction of protein homo-oligomer symmetry,"
+<i>Nature Communications</i>, In Press (2025).
+     <a href="https://www.researchsquare.com/article/rs-4215086/v1" target="_blank"><b>[PDF]</b></a> 
+    
+    
+</li>
 
 <li>
 
@@ -492,150 +575,6 @@
      
 
     
-        Kshirsagar,
-     
-
-    
-        Baek,
-     
-
-    
-        Berger,
-     
-
-    
-        Dodhia,
-     
-
-    
-        Lavista Ferres,
-     
-
-"Parameter-Efficient Fine-Tuning of Protein Language Models Improves Prediction of Protein-Protein Interactions,"
-<i>Machine Learning for Structural Biology Workshop at NeurIPS</i>.
-     <a href="https://www.mlsb.io/papers_2023/Parameter-Efficient_Fine-Tuning_of_Protein_Language_Models_Improves_Prediction_of_Protein-Protein_Interactions.pdf" target="_blank"><b>[PDF]</b></a> 
-    
-    
-</li>
-
-<li>
-
-
-    
-        <b>Sledzieski*</b>,
-     
-
-    
-        Singh*,
-     
-
-    
-        Cowen,
-     
-
-    
-        Berger,
-     
-
-"Contrasting drugs from decoys,"
-<i>Machine Learning for Structural Biology Workshop at NeurIPS</i>.
-     <a href="https://www.biorxiv.org/content/10.1101/2022.11.03.515086v1.full.pdf" target="_blank"><b>[PDF]</b></a> 
-    
-    
-</li>
-
-<li>
-
-
-    
-        <b>Sledzieski*</b>,
-     
-
-    
-        Singh*,
-     
-
-    
-        Cowen,
-     
-
-    
-        Berger,
-     
-
-"Adapting Protein Language Models for Rapid Drug-Target Interaction Prediction,"
-<i>Machine Learning for Structural Biology Workshop at NeurIPS</i>.
-     <a href="https://www.biorxiv.org/content/10.1101/2021.12.13.472073v1.full.pdf" target="_blank"><b>[PDF]</b></a> 
-    
-    
-</li>
-
-<li>
-
-
-    
-        <b>Sledzieski*</b>,
-     
-
-    
-        Singh*,
-     
-
-    
-        Cowen,
-     
-
-    
-        Berger,
-     
-
-"Sequence-based prediction of protein-protein interactions: a structure-aware interpretable deep learning model,"
-<i>Conference on Research in Computational Molecular Biology (RECOMB)</i>.
-     <a href="https://www.biorxiv.org/content/10.1101/2021.01.22.427866v1.full.pdf" target="_blank"><b>[PDF]</b></a> 
-    
-    
-</li>
-
-<li>
-
-
-    
-        <b>Sledzieski*</b>,
-     
-
-    
-        Zhang,
-     
-
-    
-        Mandoiu,
-     
-
-    
-        Bansal,
-     
-
-"TreeFix-TP: Phylogenetic Error Correction for Accurate Reconstruction of Viral Transmission Networks,"
-<i>Pacific Symposium on Biocomputing (PSB)</i>.
-     <a href="https://www.worldscientific.com/doi/pdf/10.1142/9789811232701_0012" target="_blank"><b>[PDF]</b></a> 
-     <a href="https://github.com/samsledje/TreeFix-TP" target="_blank"><b>[Code]</b></a> 
-    
-</li>
-
-</ul>
-
-<h3>Preprint</h3>
-<ul>
-
-
-<li>
-
-
-    
-        <b>Sledzieski</b>,
-     
-
-    
         Versavel,
      
 
@@ -688,11 +627,155 @@
      
 
 "Decoding the Functional Interactome of Non-Model Organisms with PHILHARMONIC,"
-<i>bioRxiv</i>, posted 21 Oct 2024, 10.1101/2024.10.25.620267.
+<i>Conference on Research in Computational Molecular Biology (RECOMB)</i>, 2025.
      <a href="https://www.biorxiv.org/content/10.1101/2024.10.25.620267v1" target="_blank"><b>[PDF]</b></a> 
      <a href="https://github.com/samsledje/philharmonic" target="_blank"><b>[Code]</b></a> 
     
 </li>
+
+<li>
+
+
+    
+        <b>Sledzieski</b>,
+     
+
+    
+        Kshirsagar,
+     
+
+    
+        Baek,
+     
+
+    
+        Berger,
+     
+
+    
+        Dodhia,
+     
+
+    
+        Lavista Ferres,
+     
+
+"Parameter-Efficient Fine-Tuning of Protein Language Models Improves Prediction of Protein-Protein Interactions,"
+<i>Machine Learning for Structural Biology Workshop at NeurIPS</i>, 2023.
+     <a href="https://www.mlsb.io/papers_2023/Parameter-Efficient_Fine-Tuning_of_Protein_Language_Models_Improves_Prediction_of_Protein-Protein_Interactions.pdf" target="_blank"><b>[PDF]</b></a> 
+    
+    
+</li>
+
+<li>
+
+
+    
+        <b>Sledzieski*</b>,
+     
+
+    
+        Singh*,
+     
+
+    
+        Cowen,
+     
+
+    
+        Berger,
+     
+
+"Contrasting drugs from decoys,"
+<i>Machine Learning for Structural Biology Workshop at NeurIPS</i>, 2022.
+     <a href="https://www.biorxiv.org/content/10.1101/2022.11.03.515086v1.full.pdf" target="_blank"><b>[PDF]</b></a> 
+    
+    
+</li>
+
+<li>
+
+
+    
+        <b>Sledzieski*</b>,
+     
+
+    
+        Singh*,
+     
+
+    
+        Cowen,
+     
+
+    
+        Berger,
+     
+
+"Adapting Protein Language Models for Rapid Drug-Target Interaction Prediction,"
+<i>Machine Learning for Structural Biology Workshop at NeurIPS</i>, 2021.
+     <a href="https://www.biorxiv.org/content/10.1101/2021.12.13.472073v1.full.pdf" target="_blank"><b>[PDF]</b></a> 
+    
+    
+</li>
+
+<li>
+
+
+    
+        <b>Sledzieski*</b>,
+     
+
+    
+        Singh*,
+     
+
+    
+        Cowen,
+     
+
+    
+        Berger,
+     
+
+"Sequence-based prediction of protein-protein interactions: a structure-aware interpretable deep learning model,"
+<i>Conference on Research in Computational Molecular Biology (RECOMB)</i>, 2021.
+     <a href="https://www.biorxiv.org/content/10.1101/2021.01.22.427866v1.full.pdf" target="_blank"><b>[PDF]</b></a> 
+    
+    
+</li>
+
+<li>
+
+
+    
+        <b>Sledzieski*</b>,
+     
+
+    
+        Zhang,
+     
+
+    
+        Mandoiu,
+     
+
+    
+        Bansal,
+     
+
+"TreeFix-TP: Phylogenetic Error Correction for Accurate Reconstruction of Viral Transmission Networks,"
+<i>Pacific Symposium on Biocomputing (PSB)</i>, 2021.
+     <a href="https://www.worldscientific.com/doi/pdf/10.1142/9789811232701_0012" target="_blank"><b>[PDF]</b></a> 
+     <a href="https://github.com/samsledje/TreeFix-TP" target="_blank"><b>[Code]</b></a> 
+    
+</li>
+
+</ul>
+
+<h3>Preprint</h3>
+<ul>
+
 
 <li>
 

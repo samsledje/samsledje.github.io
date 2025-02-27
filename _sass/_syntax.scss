@@ -4,23 +4,23 @@
 
 div.highlighter-rouge, figure.highlight {
   position: relative;
-  margin-bottom: 1em;
-  padding: 1em;
+  margin-bottom: 0.2em;
+  padding: 0.5em;
   border: 1px solid $border-color;
   border-radius: $border-radius;
   background-color: $code-background-color;
   box-shadow: $box-shadow;
-  font-size: $type-size-4;
+  font-size: $type-size-8;
 
   &:before {
     position: absolute;
     top: 0;
     right: 0;
-    padding: 0.5em;
+    padding: 0.2em;
     background-color: $lighter-gray;
     content: "\f121";
     font-family: "Font Awesome 6 Free" !important;
-    font-size: $type-size-6;
+    font-size: $type-size-8;
     line-height: 1;
     text-transform: none;
     speak: none;
@@ -29,12 +29,12 @@ div.highlighter-rouge, figure.highlight {
   .highlight {
     margin: 0;
     font-family: $monospace;
-    font-size: $type-size-6;
-    line-height: 1.8;
+    font-size: $type-size-8;
+    line-height: 1;
   }
 }
 
-.highlight table td { padding: 5px; }
+.highlight table td { padding: 2px; }
 .highlight table pre { margin: 0; }
 
 

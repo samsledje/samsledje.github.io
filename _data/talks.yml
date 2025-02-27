@@ -1,17 +1,17 @@
-- title: "TreeFix-TP"
+- title: "TreeFix-TP: Phylogenetic error-correction for infectious disease transmission network inference"
   venue: "PSB"
   date: 2021-01-07
 
-- title: "D-SCRIPT"
+- title: "D-SCRIPT: Translating genome to phenome with structure-based PPI prediction"
   venue: "RECOMB"
   date: 2021-09-01
 
-- title: "Topsy-Turvy"
+- title: "Topsy-Turvy: integrating a global view into sequence-based PPI prediction"
   venue: "ISMB"
   date: 2022-07-10
   url: "https://www.youtube.com/watch?v=8PbWHE-pXf8"
 
-- title: "TT3D"
+- title: "TT3D: Leveraging Pre-Computed Protein 3D Sequence Models to Predict Protein-Protein Interactions"
   venue: "ISMB"
   date: 2023-07-25
   url: "https://www.youtube.com/watch?v=tL3aRs4gSgM"
@@ -20,3 +20,7 @@
   venue: "MIT"
   date: 2024-04-23
   url: "https://www.youtube.com/watch?v=lJkTFrfQ510"
+
+- title: "RocketSHP: Towards ultra-fast genome-scale prediction of dynamic protein properties"
+  venue: "Biophysical Society"
+  date: 2025-02-17

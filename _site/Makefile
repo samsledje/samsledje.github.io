@@ -1,3 +1,6 @@
+.PHONY: help
+.DEFAULT_GOAL := help
+
 .PHONY: all
 all: clean cv latexclean build ## Clean, generate the CV, clean the latex build files, build the site
 

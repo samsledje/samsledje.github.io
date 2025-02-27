@@ -61,11 +61,12 @@ def format_citation(number, data):
             formatted_authors.append(author)
     
     author_str = ", ".join(formatted_authors)
+    author_str.lstrip()
     
     # Construct the full citation
     citation = (
         "\\Gap\n"
-        "\\NumberedItem{[" + str(number) + "]}\n{\n"
+        "\\NumberedItem{[" + str(number) + "]}\n{"
         "{" + author_str + "}, \n"
         "``" + title + ",'' \n " + "\\textit{" + venue + "}" + extra + "\n}\n\n"
     )

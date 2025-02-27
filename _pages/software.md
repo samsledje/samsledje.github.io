@@ -5,16 +5,39 @@ title: "Software"
 
 # Software
 
+<button id="toggle-all-details" class="btn">Expand All</button>
+
 {% assign types = site.data.software | group_by: "type" %}
 {% for soft_group in types %}
 <h3>{{ soft_group.name | title }}</h3>
 <ul>
 {% assign software_group = soft_group.items | sort: "title" %}
 {% for software in software_group %}
-<li>
-<a href="{{ software.url }}" target="_blank"><b>{{ software.title }}</b></a>
-<p> {{ software.description }}</p>
-</li>
+<details>
+    <summary>{{ software.title }}</summary>
+    <p>
+{% if software.url %}
+    <!-- <a href="{{ software.url }}"><b>[Code]</b></a> -->
+    <a href="{{ software.url }}"><i class="fab fa-fw fa-github icon-pad-right"></i></a>
+{% endif %}
+
+{% if software.publication %}
+    <!-- <a href="{{ software.publication }}"><b>[Publication]</b></a> -->
+    <a href="{{ software.publication }}"><i class="fas fa-fw fa-file-pdf icon-pad-right"></i></a>
+{% endif %}
+
+{% if software.description %}
+    {{ software.description }}
+{% endif %}
+
+{% if software.pypi %}
+    {% highlight bash %}
+    $ pip install {{ software.pypi }}
+    {% endhighlight %}
+{% endif %}
+    </p>
+</details>
+
 {% endfor %}
 </ul>
 {% endfor %}
