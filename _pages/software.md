@@ -43,30 +43,20 @@ title: "Software"
 {% endfor %}
 
 <script>
-// Wait for the document to be fully loaded
 window.addEventListener('load', function() {
-  // Look for the button
   const toggleButton = document.getElementById('toggle-all-details');
-  
-  // Only proceed if we found the button
   if (toggleButton) {
-    // Set initial state
     let allExpanded = false;
     
-    // Add click event listener
     toggleButton.addEventListener('click', function() {
-      // Get all details elements
       const allDetails = document.querySelectorAll('details');
       
-      // Toggle state
       allExpanded = !allExpanded;
       
-      // Apply to all details elements
       allDetails.forEach(function(details) {
         details.open = allExpanded;
       });
       
-      // Update button text
       toggleButton.textContent = allExpanded ? 'Collapse All' : 'Expand All';
     });
   } else {
