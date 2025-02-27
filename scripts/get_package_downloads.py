@@ -4,6 +4,7 @@ package_names = [
     "dscript",
     "conplex-dti",
     "fastdsd",
+    "philharmonic"
 ]
 
 # Using Pepy.Tech API (https://www.pepy.tech/pepy-api)

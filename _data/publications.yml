@@ -11,6 +11,7 @@
   type: conference
   authors: "Sledzieski*, Zhang, Mandoiu, Bansal"
   venue: "Pacific Symposium on Biocomputing (PSB)"
+  extra: "2021"
   date: 2021-01-06
   pdf: "https://www.worldscientific.com/doi/pdf/10.1142/9789811232701_0012"
   code: "https://github.com/samsledje/TreeFix-TP"
@@ -19,6 +20,7 @@
   type: conference
   authors: "Sledzieski*, Singh*, Cowen, Berger"
   venue: "Conference on Research in Computational Molecular Biology (RECOMB)"
+  extra: "2021"
   date: 2021-01-25
   pdf: "https://www.biorxiv.org/content/10.1101/2021.01.22.427866v1.full.pdf"
 
@@ -26,6 +28,7 @@
   type: conference
   authors: "Sledzieski*, Singh*, Cowen, Berger"
   venue: "Machine Learning for Structural Biology Workshop at NeurIPS"
+  extra: "2021"
   date: 2021-12-13
   pdf: "https://www.biorxiv.org/content/10.1101/2021.12.13.472073v1.full.pdf"
 
@@ -60,6 +63,7 @@
   type: conference
   authors: "Sledzieski*, Singh*, Cowen, Berger"
   venue: "Machine Learning for Structural Biology Workshop at NeurIPS"
+  extra: "2022"
   date: 2022-11-03
   pdf: "https://www.biorxiv.org/content/10.1101/2022.11.03.515086v1.full.pdf"
 
@@ -94,6 +98,7 @@
   type: conference
   authors: "Sledzieski, Kshirsagar, Baek, Berger, Dodhia, Lavista Ferres"
   venue: "Machine Learning for Structural Biology Workshop at NeurIPS"
+  extra: "2023"
   date: 2023-12-15
   pdf: "https://www.mlsb.io/papers_2023/Parameter-Efficient_Fine-Tuning_of_Protein_Language_Models_Improves_Prediction_of_Protein-Protein_Interactions.pdf"
 
@@ -116,10 +121,10 @@
   code: "https://github.com/rs239/abmap"
 
 - title: "Decoding the Functional Interactome of Non-Model Organisms with PHILHARMONIC"
-  type: preprint
+  type: conference
   authors: "Sledzieski, Versavel, Singh, Ocitti, Devkota, Kumar, Shhpilker, Roger, Yang, Lewinski, Putnam, Berger, Klein-Seetharaman, Cowen"
-  venue: "bioRxiv"
-  extra: posted 21 Oct 2024, 10.1101/2024.10.25.620267
+  venue: "Conference on Research in Computational Molecular Biology (RECOMB)"
+  extra: "2025"
   date: 2024-10-29
   pdf: "https://www.biorxiv.org/content/10.1101/2024.10.25.620267v1"
   code: "https://github.com/samsledje/philharmonic"
@@ -131,3 +136,11 @@
   extra: "posted 31 January 2024, 10.22541/au.170666200.07483513/v1"
   date: 2024-01-31
   pdf: "https://www.authorea.com/users/416881/articles/710195-insulin-signaling-and-pharmacology-in-corals"
+
+- title: "Rapid and accurate prediction of protein homo-oligomer symmetry"
+  type: journal
+  authors: "Kshirsagar, Meller, Humphreys, Sledzieski, Xu, Dodhia, Horvitz, Berger, Bowman, Lavista Ferres, Baker, Baek"
+  venue: "Nature Communications"
+  extra: "In Press (2025)"
+  date: 2025-02-12
+  pdf: "https://www.researchsquare.com/article/rs-4215086/v1"
