@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://localhost:4000/</loc>
+<loc>https://samsl.io/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/publications</loc>
+<loc>https://samsl.io/publications</loc>
 </url>
 <url>
-<loc>http://localhost:4000/software</loc>
+<loc>https://samsl.io/software</loc>
 </url>
 <url>
-<loc>http://localhost:4000/talks</loc>
+<loc>https://samsl.io/talks</loc>
 </url>
 <url>
-<loc>http://localhost:4000/assets/files/Sledzieski_Samuel_CV.pdf</loc>
-<lastmod>2025-02-27T10:39:28-05:00</lastmod>
+<loc>https://samsl.io/assets/files/Sledzieski_Samuel_CV.pdf</loc>
+<lastmod>2025-02-27T11:07:20-05:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/assets/files/cv_old.pdf</loc>
+<loc>https://samsl.io/assets/files/cv_old.pdf</loc>
 <lastmod>2024-10-28T05:59:33-04:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/latex/main.pdf</loc>
-<lastmod>2025-02-27T10:39:28-05:00</lastmod>
+<loc>https://samsl.io/latex/main.pdf</loc>
+<lastmod>2025-02-27T11:07:20-05:00</lastmod>
 </url>
 </urlset>
