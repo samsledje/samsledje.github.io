@@ -1,53 +1,29 @@
 
 
 <!doctype html>
-<html lang="en" class="no-js">
+<html lang="en" class="js">
   <head>
     
 
 <meta charset="utf-8">
 
-<link href="https://samsl.io/feed.xml" type="application/atom+xml" rel="alternate" title="Samuel Sledzieski Feed">
+<link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="Samuel Sledzieski Feed">
 
 <!-- http://t.co/dKP3o1e -->
 <meta name="HandheldFriendly" content="True">
 <meta name="MobileOptimized" content="320">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<link rel="icon" type="image/ico" href="https://samsl.io/assets/images/favicon.ico" sizes="32x32">
+<link rel="icon" type="image/ico" href="http://localhost:4000/assets/images/favicon.ico" sizes="32x32">
 
 <script>
   document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
-  document.addEventListener('DOMContentLoaded', function() {
-    const toggleButton = document.getElementById('toggle-all-details');
-    if (!toggleButton) return;
-    
-    // Initial state
-    let allExpanded = false;
-    
-    toggleButton.addEventListener('click', function() {
-      // Get all details elements
-      const allDetails = document.querySelectorAll('details');
-      
-      // Toggle the state
-      allExpanded = !allExpanded;
-      
-      // Apply the new state to all details elements
-      allDetails.forEach(function(details) {
-        details.open = allExpanded;
-      });
-      
-      // Update button text
-      toggleButton.textContent = allExpanded ? 'Collapse All' : 'Expand All';
-    });
-  });
-
 </script>
 
 <!-- For all browsers -->
-<link rel="stylesheet" href="https://samsl.io/assets/css/main.css">
-<link rel="stylesheet" href="https://samsl.io/assets/css/collapse.css">
-<link rel="stylesheet" href="https://samsl.io/assets/css/academicons.css"/>
+<link rel="stylesheet" href="http://localhost:4000/assets/css/main.css">
+<link rel="stylesheet" href="http://localhost:4000/assets/css/collapse.css">
+<link rel="stylesheet" href="http://localhost:4000/assets/css/academicons.css"/>
 
 <meta http-equiv="cleartype" content="on">
 
@@ -62,19 +38,19 @@
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
         <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg"><a href="https://samsl.io/">Home</a></li>
+          <li class="masthead__menu-item masthead__menu-item--lg"><a href="http://localhost:4000/">Home</a></li>
           
             
-            <li class="masthead__menu-item"><a href="https://samsl.io/publications">Publications</a></li>
+            <li class="masthead__menu-item"><a href="http://localhost:4000/publications">Publications</a></li>
           
             
-            <li class="masthead__menu-item"><a href="https://samsl.io/software">Software</a></li>
+            <li class="masthead__menu-item"><a href="http://localhost:4000/software">Software</a></li>
           
             
-            <li class="masthead__menu-item"><a href="https://samsl.io/talks">Talks</a></li>
+            <li class="masthead__menu-item"><a href="http://localhost:4000/talks">Talks</a></li>
           
             
-            <li class="masthead__menu-item"><a href="https://samsl.io/assets/files/Sledzieski_Samuel_CV.pdf">CV</a></li>
+            <li class="masthead__menu-item"><a href="http://localhost:4000/assets/files/Sledzieski_Samuel_CV.pdf">CV</a></li>
           
         </ul>
       </nav>
@@ -89,19 +65,19 @@
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
         <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg"><a href="https://samsl.io/">Home</a></li>
+          <li class="masthead__menu-item masthead__menu-item--lg"><a href="http://localhost:4000/">Home</a></li>
           
             
-            <li class="masthead__menu-item"><a href="https://samsl.io/publications">Publications</a></li>
+            <li class="masthead__menu-item"><a href="http://localhost:4000/publications">Publications</a></li>
           
             
-            <li class="masthead__menu-item"><a href="https://samsl.io/software">Software</a></li>
+            <li class="masthead__menu-item"><a href="http://localhost:4000/software">Software</a></li>
           
             
-            <li class="masthead__menu-item"><a href="https://samsl.io/talks">Talks</a></li>
+            <li class="masthead__menu-item"><a href="http://localhost:4000/talks">Talks</a></li>
           
             
-            <li class="masthead__menu-item"><a href="https://samsl.io/assets/files/Sledzieski_Samuel_CV.pdf">CV</a></li>
+            <li class="masthead__menu-item"><a href="http://localhost:4000/assets/files/Sledzieski_Samuel_CV.pdf">CV</a></li>
           
         </ul>
       </nav>
@@ -122,7 +98,7 @@
     
       <div class="author__avatar">
         
-          <img src="https://samsl.io/assets/images/Sledzieski_Samuel_Headshot.jpg" class="author__avatar" alt="Samuel Sledzieski">
+          <img src="http://localhost:4000/assets/images/Sledzieski_Samuel_Headshot.jpg" class="author__avatar" alt="Samuel Sledzieski">
         
       </div>
     

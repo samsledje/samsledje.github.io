@@ -13,30 +13,6 @@
 
 <script>
   document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
-  document.addEventListener('DOMContentLoaded', function() {
-    const toggleButton = document.getElementById('toggle-all-details');
-    if (!toggleButton) return;
-    
-    // Initial state
-    let allExpanded = false;
-    
-    toggleButton.addEventListener('click', function() {
-      // Get all details elements
-      const allDetails = document.querySelectorAll('details');
-      
-      // Toggle the state
-      allExpanded = !allExpanded;
-      
-      // Apply the new state to all details elements
-      allDetails.forEach(function(details) {
-        details.open = allExpanded;
-      });
-      
-      // Update button text
-      toggleButton.textContent = allExpanded ? 'Collapse All' : 'Expand All';
-    });
-  });
-
 </script>
 
 <!-- For all browsers -->
