@@ -19,13 +19,14 @@ title: "Publications"
         <b>{{ member }}</b>,
     {% else %}
         {{ member }},
-    {% endif %} 
+    {% endif %}
 {% endfor %}
 "{{ publication.title }},"
 <i>{{ publication.venue }}</i>{% if publication.extra %}, {{ publication.extra }}{% endif %}.
-    {% if publication.pdf %} <a href="{{ publication.pdf }}" target="_blank"><b>[PDF]</b></a> {% endif %}
-    {% if publication.code %} <a href="{{ publication.code }}" target="_blank"><b>[Code]</b></a> {% endif %}
-    {% if publication.talk %} <a href="{{ publication.talk }}" target="_blank"><b>[Talk]</b></a> {% endif %}
+    <!-- {% if publication.pdf %} <a href="{{ publication.pdf }}" target="_blank"><b>[PDF]</b></a> {% endif %} -->
+    {% if publication.pdf %} <a href="{{ publication.pdf }}" target="_blank"><i class="fas fa-fw fa-file-pdf icon-pad-right"></i></a> {% endif %}
+    {% if publication.code %} <a href="{{ publication.code }}" target="_blank"><i class="fab fa-fw fa-github icon-pad-right"></i></a> {% endif %}
+    {% if publication.talk %} <a href="{{ publication.talk }}" target="_blank"><i class="fas fa-fw fa-video icon-pad-right"></i></a> {% endif %}
 </li>
 {% endfor %}
 </ul>

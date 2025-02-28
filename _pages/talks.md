@@ -9,11 +9,11 @@ title: "Talks"
 {% assign talks = site.data.talks | sort: "date" | reverse %}
 {% for talk in talks %}
 <li>
-<b>{{ talk.title }} @ {{ talk.venue }} ({{ talk.date | date: "%Y" }})
+<b>{{ talk.title }}</b> @ {{ talk.venue }} ({{ talk.date | date: "%Y" }})
 {% if talk.url %}
-    <a href="{{ talk.url }}" target="_blank">[Video]</a>
+    <a href="{{ talk.url }}" target="_blank"><i class="fas fa-fw fa-video icon-pad-right"></i></a>
 {% endif %}
-</b>
+
 </li>
 {% endfor %}
 </ul>
