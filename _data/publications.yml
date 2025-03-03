@@ -141,6 +141,7 @@
   type: journal
   authors: "Kshirsagar, Meller, Humphreys, Sledzieski, Xu, Dodhia, Horvitz, Berger, Bowman, Lavista Ferres, Baker, Baek"
   venue: "Nature Communications"
-  extra: "In Press (2025)"
+  extra: "16, 2017 (2025)"
   date: 2025-02-12
-  pdf: "https://www.researchsquare.com/article/rs-4215086/v1"
+  pdf: "https://www.nature.com/articles/s41467-025-57148-3"
+  code: "https://github.com/microsoft/seq2symm"
