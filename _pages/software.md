@@ -13,9 +13,9 @@ title: "Software"
 <ul>
 {% assign software_group = soft_group.items | sort: "title" %}
 {% for software in software_group %}
-<details>
-    <summary>{{ software.title }}</summary>
-    <p>
+<details style="margin-left: 1em;">
+    <summary style="margin-left: -1em;">{{ software.title }}</summary>
+    <div>
 {% if software.url %}
     <!-- <a href="{{ software.url }}"><b>[Code]</b></a> -->
     <a href="{{ software.url }}"><i class="fab fa-fw fa-github icon-pad-right"></i></a>
@@ -27,7 +27,7 @@ title: "Software"
 {% endif %}
 
 {% if software.description %}
-    {{ software.description }}
+    <p>{{ software.description }}</p>
 {% endif %}
 
 {% if software.pypi %}
@@ -35,7 +35,8 @@ title: "Software"
     $ pip install {{ software.pypi }}
     {% endhighlight %}
 {% endif %}
-    </p>
+    </div>
+    <br>
 </details>
 
 {% endfor %}
