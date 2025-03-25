@@ -145,3 +145,12 @@
   date: 2025-02-12
   pdf: "https://www.nature.com/articles/s41467-025-57148-3"
   code: "https://github.com/microsoft/seq2symm"
+
+- title: "Learning the language of protein-protein interactions"
+  type: preprint
+  authors: "Ullanat, Jing, Sledzieski, Berger"
+  venue: bioRxiv
+  extra: "2025.03.09.642188"
+  date: 2025-03-10
+  pdf: "https://www.biorxiv.org/content/10.1101/2025.03.09.642188v1"
+  code: "https://github.com/VarunUllanat/mint"
