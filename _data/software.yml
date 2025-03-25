@@ -51,3 +51,8 @@
   publication: "https://www.liebertpub.com/doi/10.1089/cmb.2021.0507"
   description: "Inference of ancestral and extant strain recombination in viral genomes using phylogenetic reconciliation."
 
+- title: "MINT"
+  type: "Protein Networks"
+  url: "https://github.com/VarunUllanat/mint"
+  publication: "https://www.biorxiv.org/content/10.1101/2025.03.09.642188v1"
+  description: "The Multimer Interaction Transformer (MINT) is a protein language model trained to learn the distribution over sets of interacting protein sequences."
