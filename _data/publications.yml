@@ -2,7 +2,9 @@
   type: journal
   authors: "Sledzieski*, Singh*, Cowen, Berger"
   venue: "Cell Systems"
-  extra: "12.10 (2021): 969-982"
+  volume: "12"
+  number: "10"
+  pages: "969-982"
   date: 2021-10-20
   pdf: "https://www.cell.com/cell-systems/pdfExtended/S2405-4712(21)00333-1"
   code: "https://cb.csail.mit.edu/cb/dscript/"
@@ -13,6 +15,7 @@
   venue: "Pacific Symposium on Biocomputing (PSB)"
   extra: "2021"
   date: 2021-01-06
+  doi: "10.1142/9789811232701_0012"
   pdf: "https://www.worldscientific.com/doi/pdf/10.1142/9789811232701_0012"
   code: "https://github.com/samsledje/TreeFix-TP"
 
@@ -32,11 +35,11 @@
   date: 2021-12-13
   pdf: "https://www.biorxiv.org/content/10.1101/2021.12.13.472073v1.full.pdf"
 
-- title: Single-cell mosaicism analysis reveals cell-type-specific somatic mutational burden in Alzheimer’s Dementia
+- title: Single-cell mosaicism analysis reveals cell-type-specific somatic mutational burden in Alzheimers Dementia
   type: preprint
   authors: "Kousi, Boix, Park, Mathys, Sledzieski, Peng, Bennett, Tsai, Kellis"
   venue: "bioRxiv"
-  extra: "posted 22 April 2022, 10.1101/2022.04.21.489103"
+  doi: "10.1101/2022.04.21.489103"
   date: 2022-04-22
   pdf: "https://www.biorxiv.org/content/10.1101/2022.04.21.489103v1.full.pdf"
 
@@ -44,7 +47,9 @@
   type: journal
   authors: "Singh*, Devkota*, Sledzieski, Berger, Cowen"
   venue: "Bioinformatics"
-  extra: "38.Supplement 1 (July 2022): i264–i272"
+  volume: "38"
+  number: "Supplement 1"
+  pages: "i264-i272"
   date: 2022-06-27
   pdf: "https://academic.oup.com/bioinformatics/article/38/Supplement_1/i264/6617505"
   code: "https://cb.csail.mit.edu/cb/topsyturvy/"
@@ -54,8 +59,11 @@
   type: journal
   authors: "Zaman*, Sledzieski*, Wu, Bansal"
   venue: "J Comput Biol"
-  extra: "2022 Sep 20. doi: 10.1089/cmb.2021.0507. Epub ahead of print. PMID: 36125448"
-  date: 2022-09-20
+  volume: "30"
+  number: "1"
+  pages: "3--20"
+  date: 2023-01-05
+  doi: "10.1089/cmb.2021.0507"
   pdf: "https://www.liebertpub.com/doi/10.1089/cmb.2021.0507"
   code: "https://github.com/suz11001/virDTL"
 
@@ -71,7 +79,10 @@
   type: journal
   authors: "Kumar, Brenner, Sledzieski, Olaosebikan, Lynn-Goin, Putnam, Yang, Lewinski, Singh, Daniels, Cowen, Klein-Seetharaman"
   venue: "Plos one"
-  extra: "18.2 (2023). 10.1371/journal.pone.0270965"
+  volume: "18"
+  number: "2"
+  pages: "e0270965"
+  doi: "10.1371/journal.pone.0270965"
   date: 2023-02-03
   pdf: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9897584/pdf/pone.0270965.pdf"
 
@@ -79,8 +90,11 @@
   type: journal
   authors: "Singh*, Sledzieski*, Bryson, Cowen, Berger"
   venue: "Proceedings of the National Academy of Sciences"
-  extra: "120.24 (2023): e2220778120"
+  volume: "120"
+  number: "24"
+  pages: "e2220778120"
   date: 2023-06-08
+  doi: "10.1073/pnas.2220778120"
   pdf: "https://www.pnas.org/doi/epdf/10.1073/pnas.2220778120"
   code: "https://cb.csail.mit.edu/cb/conplex/"
 
@@ -88,7 +102,9 @@
   type: journal
   authors: "Sledzieski*, Devkota*, Singh, Cowen, Berger"
   venue: "Bioinformatics"
-  extra: "2023: btad663"
+  volume: "39"
+  number: "11"
+  pages: "btad663"
   date: 2023-10-28
   pdf: "https://academic.oup.com/bioinformatics/article/39/11/btad663/7332153"
   code: "https://github.com/microsoft/peft_proteomics"
@@ -106,8 +122,11 @@
   type: journal
   authors: "Sledzieski, Kshirsagar, Baek, Berger, Dodhia, Lavista Ferres"
   venue: "Proceedings of the National Academy of Sciences"
-  extra: "121.26 (2024): e2405840121"
+  volume: "121"
+  number: "26"
+  pages: "e2405840121" 
   date: 2024-06-20
+  doi: "10.1073/pnas.2405840121"
   pdf: "https://www.pnas.org/doi/10.1073/pnas.2405840121"
   code: "https://cb.csail.mit.edu/cb/topsyturvy/"
 
@@ -115,8 +134,11 @@
   type: journal
   authors: "Singh, Im, Qiu, Macnkess, Gupta, Sorenson, Sledzieski, Erlach, Wendt, Nanfack, Bryson, Berger"
   venue: "Proceedings of the National Academy of Sciences"
-  extra: "122.1 (2025): e2418918121"
+  volume: "122"
+  number: "1"
+  pages: "e2418918121"
   date: 2024-09-16
+  doi: "10.1073/pnas.2418918121"
   pdf: "https://www.pnas.org/doi/epub/10.1073/pnas.2418918121"
   code: "https://github.com/rs239/abmap"
 
@@ -126,6 +148,7 @@
   venue: "Conference on Research in Computational Molecular Biology (RECOMB)"
   extra: "2025"
   date: 2024-10-29
+  doi: "10.1101/2024.10.25.620267v1"
   pdf: "https://www.biorxiv.org/content/10.1101/2024.10.25.620267v1"
   code: "https://github.com/samsledje/philharmonic"
 
@@ -133,16 +156,18 @@
   type: preprint
   authors: "Vizgaudis, Kumar, Olaosebikan, Roger, Brenner, Sledzieski, Yang, Lewinski, Singh, Daniels, Cowen, Klein-Seetharaman"
   venue: "Authorea Preprints"
-  extra: "posted 31 January 2024, 10.22541/au.170666200.07483513/v1"
   date: 2024-01-31
+  doi: "10.22541/au.170666200.07483513/v1"
   pdf: "https://www.authorea.com/users/416881/articles/710195-insulin-signaling-and-pharmacology-in-corals"
 
 - title: "Rapid and accurate prediction of protein homo-oligomer symmetry"
   type: journal
   authors: "Kshirsagar, Meller, Humphreys, Sledzieski, Xu, Dodhia, Horvitz, Berger, Bowman, Lavista Ferres, Baker, Baek"
   venue: "Nature Communications"
-  extra: "16, 2017 (2025)"
-  date: 2025-02-12
+  volume: "16"
+  number: "2017"
+  date: 2025-02-27
+  doi: "10.1038/s41467-025-57148-3"
   pdf: "https://www.nature.com/articles/s41467-025-57148-3"
   code: "https://github.com/microsoft/seq2symm"
 
@@ -150,7 +175,7 @@
   type: preprint
   authors: "Ullanat, Jing, Sledzieski, Berger"
   venue: bioRxiv
-  extra: "2025.03.09.642188"
   date: 2025-03-10
+  doi: "10.1101/2025.03.09.642188v1"
   pdf: "https://www.biorxiv.org/content/10.1101/2025.03.09.642188v1"
   code: "https://github.com/VarunUllanat/mint"

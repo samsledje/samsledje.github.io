@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.11.25)  25 MAR 2025 16:26
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.11.25)  3 APR 2025 10:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -541,7 +541,7 @@ Underfull \hbox (badness 3590) in paragraph at lines 333--338
  []
 
 [2]
-Underfull \hbox (badness 1442) in paragraph at lines 636--649
+Underfull \hbox (badness 1442) in paragraph at lines 641--654
 \TU/Tinos-Regular.ttf(0)/m/it/10 Journal of Computational Biology\TU/Tinos-Regu
 lar.ttf(0)/m/n/10 , \TU/Tinos-Regular.ttf(0)/m/it/10 PLOS Computational Biology
 \TU/Tinos-Regular.ttf(0)/m/n/10 , \TU/Tinos-Regular.ttf(0)/m/it/10 IEEE Transac
@@ -549,9 +549,9 @@ tions on Artificial
  []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 680.
+(Font)              <7> on input line 685.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 680.
+(Font)              <5> on input line 685.
 [3] (latex/main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
