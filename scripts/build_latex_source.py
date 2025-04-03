@@ -35,9 +35,7 @@ def format_citation(number, data):
     
     Args:
         number (int): The citation number
-        authors (list): List of author surnames, with '*' if needed
-        paper_title (str): Title of the paper in quotes
-        venue_and_year (str): Venue and year information
+        data (dict): Dictionary containing publication data
     
     Returns:
         str: Formatted citation string
@@ -46,10 +44,12 @@ def format_citation(number, data):
     authors = data["authors"]
     title = data["title"]
     venue = data["venue"]
-    try:
-        extra = ", "+data["extra"]
-    except KeyError:
-        extra = ""
+    volume = data.get("volume", "")
+    number_field = data.get("number", "")
+    pages = data.get("pages", "")
+    doi = data.get("doi", "")
+    year = data["date"].year
+    print(data)
 
     # Format each author, making only Sledzieski bold
     authors = authors.split(", ")
@@ -68,8 +68,22 @@ def format_citation(number, data):
         "\\Gap\n"
         "\\NumberedItem{[" + str(number) + "]}\n{"
         "{" + author_str + "}, \n"
-        "``" + title + ",'' \n " + "\\textit{" + venue + "}" + extra + "\n}\n\n"
+        "``" + title + ",'' \n"
+        "\\textit{" + venue + "}"
     )
+
+    if volume:
+        citation += f", {volume}"
+    if number_field:
+        citation += f"({number_field})"
+    if pages:
+        citation += f":{pages}"
+    citation += f", {year}."
+    if doi and data["type"] == "preprint":
+        citation += f" {doi}."
+
+    citation += "\n}\n\n"
+    print(citation)
     
     return citation
 #%%

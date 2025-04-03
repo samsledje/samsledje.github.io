@@ -15,7 +15,12 @@ title: "Software"
 {% for software in software_group %}
 <details style="margin-left: 1em;">
     <summary style="margin-left: -1em;">{{ software.title }}</summary>
-    <div>
+    <div class="softwareitem">
+
+{% if software.description %}
+    <p>{{ software.description }}</p>
+{% endif %}
+
 {% if software.url %}
     <!-- <a href="{{ software.url }}"><b>[Code]</b></a> -->
     <a href="{{ software.url }}"><i class="fab fa-fw fa-github icon-pad-right"></i></a>
@@ -24,10 +29,6 @@ title: "Software"
 {% if software.publication %}
     <!-- <a href="{{ software.publication }}"><b>[Publication]</b></a> -->
     <a href="{{ software.publication }}"><i class="fas fa-fw fa-file-pdf icon-pad-right"></i></a>
-{% endif %}
-
-{% if software.description %}
-    <p>{{ software.description }}</p>
 {% endif %}
 
 {% if software.pypi %}
