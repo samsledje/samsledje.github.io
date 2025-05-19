@@ -77,7 +77,10 @@ analytics:
 include:
   - .htaccess
   - _pages
+  - projects
   - assets/files
+  - assets/js
+  - assets/css
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
