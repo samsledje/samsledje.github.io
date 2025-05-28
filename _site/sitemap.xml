@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>https://samsl.io/</loc>
+</url>
+<url>
+<loc>https://samsl.io/publications</loc>
+</url>
+<url>
+<loc>https://samsl.io/software</loc>
+</url>
+<url>
+<loc>https://samsl.io/talks</loc>
+</url>
+<url>
+<loc>https://samsl.io/assets/files/Sledzieski_PhD_Thesis.pdf</loc>
+<lastmod>2025-03-25T16:25:12-04:00</lastmod>
+</url>
+<url>
+<loc>https://samsl.io/assets/files/Sledzieski_Samuel_CV.pdf</loc>
+<lastmod>2025-05-28T15:34:45-04:00</lastmod>
+</url>
+<url>
+<loc>https://samsl.io/assets/files/cv_old.pdf</loc>
+<lastmod>2024-10-28T05:59:33-04:00</lastmod>
+</url>
+<url>
+<loc>https://samsl.io/latex/main.pdf</loc>
+<lastmod>2025-05-28T15:34:45-04:00</lastmod>
+</url>
+<url>
+<loc>https://samsl.io/projects/dscript.html</loc>
+<lastmod>2025-05-19T17:50:52-04:00</lastmod>
+</url>
+</urlset>
