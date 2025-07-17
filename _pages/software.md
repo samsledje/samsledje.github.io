@@ -5,6 +5,8 @@ title: "Software"
 
 # Software
 
+<!-- [![Sam's GitHub stats](https://github-readme-stats.vercel.app/api?username=samsledje)](https://github.com/samsledje) -->
+
 <button id="toggle-all-details" class="btn">Expand All</button>
 
 {% assign types = site.data.software | group_by: "type" %}
@@ -17,18 +19,28 @@ title: "Software"
     <summary style="margin-left: -1em;">{{ software.title }}</summary>
     <div class="softwareitem">
 
-{% if software.description %}
-    <p>{{ software.description }}</p>
-{% endif %}
-
-{% if software.url %}
-    <!-- <a href="{{ software.url }}"><b>[Code]</b></a> -->
-    <a href="{{ software.url }}"><i class="fab fa-fw fa-github icon-pad-right"></i></a>
-{% endif %}
-
+<p>
 {% if software.publication %}
     <!-- <a href="{{ software.publication }}"><b>[Publication]</b></a> -->
     <a href="{{ software.publication }}"><i class="fas fa-fw fa-file-pdf icon-pad-right"></i></a>
+{% endif %}
+{% if software.description %}
+    {{ software.description }}
+{% endif %}
+</p>
+
+<!-- [![Repo stats](https://github-readme-stats.vercel.app/api/pin/?username={{ software.user }}&amp;repo={{ software.repo }}&amp;theme=default&amp;show_owner=true")]({{ software.url }}) -->
+
+{% if software.url %}
+    {% if software.repo %}
+        {% if software.user %}
+          <div>
+            <a href="{{ software.url }}" rel="external nofollow noopener" target="_blank">
+              <img alt="{{ software.user }}/{{ software.repo }}" src="https://github-readme-stats.vercel.app/api/pin/?username={{ software.user }}&amp;repo={{ software.repo }}&amp;theme=default&amp;show_owner=true">
+            </a>
+          </div>
+        {% endif %}
+    {% endif %}
 {% endif %}
 
 {% if software.pypi %}

@@ -147,7 +147,7 @@
   authors: "Sledzieski, Versavel, Singh, Ocitti, Devkota, Kumar, Shhpilker, Roger, Yang, Lewinski, Putnam, Berger, Klein-Seetharaman, Cowen"
   venue: "Conference on Research in Computational Molecular Biology (RECOMB)"
   extra: "2025"
-  date: 2024-10-29
+  date: 2025-04-15
   doi: "10.1101/2024.10.25.620267v1"
   pdf: "https://www.biorxiv.org/content/10.1101/2024.10.25.620267v1"
   code: "https://github.com/samsledje/philharmonic"
@@ -179,3 +179,12 @@
   doi: "10.1101/2025.03.09.642188v1"
   pdf: "https://www.biorxiv.org/content/10.1101/2025.03.09.642188v1"
   code: "https://github.com/VarunUllanat/mint"
+
+- title: "RocketSHP: Ultra-fast Proteome-scale Prediction of Protein Dynamics"
+  type: preprint
+  authors: "Sledzieski, Hanson"
+  venue: bioRxiv
+  date: 2025-06-17
+  doi: "10.1101/2025.06.12.659353"
+  pdf: "https://www.biorxiv.org/content/10.1101/2025.06.12.659353v1"
+  code: "https://github.com/samsledje/RocketSHP"
