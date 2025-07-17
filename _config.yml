@@ -13,7 +13,6 @@ repository               : "samsledje/samsledje.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  # avatar           : "/assets/images/profile.png"
   avatar           : "/assets/images/Sledzieski_Samuel_Headshot.jpg"
   name             : "Samuel Sledzieski"
   pronouns         : "he/him" 
@@ -35,16 +34,12 @@ author:
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
-  # bluesky          : "bsky.app" # Replace this with you Bluesky username
   linkedin         :  "samuelsledzieski/"
-  # mastodon         : # URL
   # medium           : # URL
-  # soundcloud       : # Username
   # twitter          : "@samsledzieski"
   bluesky          : "samsl.io"
   wikipedia        : "samsledje"
   youtube          : "@SamuelSledzieskiResearch"
-
 
 # Site Settings
 breadcrumbs              : false # true, false (default)
@@ -54,18 +49,6 @@ atom_feed:
   hide                   : true     # change to true to hide the RSS feed in the footer
   path                   : # blank (default) uses feed.xml
 
-
-# SEO Related
-google_site_verification :
-bing_site_verification   :
-alexa_site_verification  :
-yandex_site_verification :
-
-
-# Social Sharing
-# twitter:
-#   username               : &twitter samsledzieski
-
 # Analytics
 analytics:
   provider               :  "false" # false (default), "google", "google-universal", "google-analytics-4", "custom"
@@ -73,11 +56,10 @@ analytics:
     tracking_id          :
 
 
-# Reading Files
 include:
   - .htaccess
   - _pages
-  - projects
+  # - projects
   - assets/files
   - assets/js
   - assets/css
