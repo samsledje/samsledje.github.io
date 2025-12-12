@@ -9,7 +9,7 @@
   pdf: "https://www.cell.com/cell-systems/pdfExtended/S2405-4712(21)00333-1"
   code: "https://cb.csail.mit.edu/cb/dscript/"
 
-- title: "TreeFix-TP: Phylogenetic Error Correction for Accurate Reconstruction of Viral Transmission Networks"
+- title: "TreeFix-TP: Phylogenetic error correction for accurate reconstruction of viral transmission networks"
   type: conference
   authors: "Sledzieski*, Zhang, Mandoiu, Bansal"
   venue: "Pacific Symposium on Biocomputing (PSB)"
@@ -27,7 +27,7 @@
   date: 2021-01-25
   pdf: "https://www.biorxiv.org/content/10.1101/2021.01.22.427866v1.full.pdf"
 
-- title: "Adapting Protein Language Models for Rapid Drug-Target Interaction Prediction"
+- title: "Adapting protein language models for rapid drug-target interaction prediction"
   type: conference
   authors: "Sledzieski*, Singh*, Cowen, Berger"
   venue: "Machine Learning for Structural Biology Workshop at NeurIPS"
@@ -98,7 +98,7 @@
   pdf: "https://www.pnas.org/doi/epdf/10.1073/pnas.2220778120"
   code: "https://cb.csail.mit.edu/cb/conplex/"
 
-- title: "TT3D: Leveraging Pre-Computed Protein Sequence Models to Predict Protein-Protein Interactions"
+- title: "TT3D: Leveraging pre-computed protein sequence models to predict protein-protein interactions"
   type: journal
   authors: "Sledzieski*, Devkota*, Singh, Cowen, Berger"
   venue: "Bioinformatics"
@@ -110,7 +110,7 @@
   code: "https://github.com/microsoft/peft_proteomics"
   talk: "https://www.youtube.com/watch?v=tL3aRs4gSgM"
 
-- title: "Parameter-Efficient Fine-Tuning of Protein Language Models Improves Prediction of Protein-Protein Interactions"
+- title: "Parameter-efficient fine-tuning of protein language models improves prediction of protein-protein interactions"
   type: conference
   authors: "Sledzieski, Kshirsagar, Baek, Berger, Dodhia, Lavista Ferres"
   venue: "Machine Learning for Structural Biology Workshop at NeurIPS"
@@ -118,19 +118,19 @@
   date: 2023-12-15
   pdf: "https://www.mlsb.io/papers_2023/Parameter-Efficient_Fine-Tuning_of_Protein_Language_Models_Improves_Prediction_of_Protein-Protein_Interactions.pdf"
 
-- title: "Democratizing Protein Language Models with Parameter-Efficient Fine-Tuning"
+- title: "Democratizing protein language odels with parameter-efficient fine-tuning"
   type: journal
   authors: "Sledzieski, Kshirsagar, Baek, Berger, Dodhia, Lavista Ferres"
   venue: "Proceedings of the National Academy of Sciences"
   volume: "121"
   number: "26"
-  pages: "e2405840121" 
+  pages: "e2405840121"
   date: 2024-06-20
   doi: "10.1073/pnas.2405840121"
   pdf: "https://www.pnas.org/doi/10.1073/pnas.2405840121"
   code: "https://cb.csail.mit.edu/cb/topsyturvy/"
 
-- title: "Learning the Language of Antibody Hypervariability"
+- title: "Learning the language of antibody hypervariability"
   type: journal
   authors: "Singh, Im, Qiu, Macnkess, Gupta, Sorenson, Sledzieski, Erlach, Wendt, Nanfack, Bryson, Berger"
   venue: "Proceedings of the National Academy of Sciences"
@@ -142,7 +142,7 @@
   pdf: "https://www.pnas.org/doi/epub/10.1073/pnas.2418918121"
   code: "https://github.com/rs239/abmap"
 
-- title: "Decoding the Functional Interactome of Non-Model Organisms with PHILHARMONIC"
+- title: "Decoding the functional interactome of non-model organisms with PHILHARMONIC"
   type: conference
   authors: "Sledzieski, Versavel, Singh, Ocitti, Devkota, Kumar, Shhpilker, Roger, Yang, Lewinski, Putnam, Berger, Klein-Seetharaman, Cowen"
   venue: "Conference on Research in Computational Molecular Biology (RECOMB)"
@@ -172,15 +172,16 @@
   code: "https://github.com/microsoft/seq2symm"
 
 - title: "Learning the language of protein-protein interactions"
-  type: preprint
+  type: journal
   authors: "Ullanat, Jing, Sledzieski, Berger"
-  venue: bioRxiv
-  date: 2025-03-10
+  venue: "Nature Communications"
+  volume: "In Press"
+  date: 2025-12-12
   doi: "10.1101/2025.03.09.642188v1"
   pdf: "https://www.biorxiv.org/content/10.1101/2025.03.09.642188v1"
   code: "https://github.com/VarunUllanat/mint"
 
-- title: "RocketSHP: Ultra-fast Proteome-scale Prediction of Protein Dynamics"
+- title: "RocketSHP: Ultra-fast proteome-scale prediction of protein dynamics"
   type: preprint
   authors: "Sledzieski, Hanson"
   venue: bioRxiv
@@ -188,3 +189,24 @@
   doi: "10.1101/2025.06.12.659353"
   pdf: "https://www.biorxiv.org/content/10.1101/2025.06.12.659353v1"
   code: "https://github.com/samsledje/RocketSHP"
+
+- title: "Memory-efficient, accelerated protein interaction inference with Blocked, Multi-GPU D-SCRIPT"
+  type: journal
+  authors: "Schäffer, Sledzieski, Cowen, Berger"
+  venue: "Bioinformatics"
+  volume: "41"
+  number: "10"
+  pages: "btaf564"
+  date: 2025-10-03
+  doi: "10.1093/bioinformatics/btaf564"
+  pdf: "https://academic.oup.com/bioinformatics/article/41/10/btaf564/8283538"
+  code: "https://github.com/samsledje/D-SCRIPT/releases/tag/v0.3.0"
+
+- title: "RDS: A ReCIPE for overlapping community detection in biological networks"
+  type: conference
+  authors: Ocitti, Versavel, Sledzieski, Cowen
+  venue: "ACM Conference on Bioinformatics, Computational Biology, and Health Informatics (ACM-BCB)"
+  extra: "2025"
+  date: 2025-10-12
+  doi: "10.1145/3765612.3767301"
+  pdf: "https://dl.acm.org/doi/10.1145/3765612.3767301"

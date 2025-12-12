@@ -127,7 +127,7 @@ function generateBibtex(publication) {
 }
 
 // Close modal when clicking outside of it
-window.onclick = function(event) {
+window.onclick = function (event) {
   const modals = document.getElementsByClassName('bibtex-modal');
   for (let i = 0; i < modals.length; i++) {
     if (event.target === modals[i]) {

@@ -24,24 +24,24 @@ title: "Software"
     <!-- <a href="{{ software.publication }}"><b>[Publication]</b></a> -->
     <a href="{{ software.publication }}"><i class="fas fa-fw fa-file-pdf icon-pad-right"></i></a>
 {% endif %}
+{% if software.url %}
+    {% if software.repo %}
+        {% if software.user %}
+          <!-- <div>
+            <a href="{{ software.url }}" rel="external nofollow noopener" target="_blank">
+              <img alt="{{ software.user }}/{{ software.repo }}" src="https://github-readme-stats.vercel.app/api/pin/?username={{ software.user }}&amp;repo={{ software.repo }}&amp;theme=default&amp;show_owner=true">
+            </a>
+          </div> -->
+          <a href="{{ software.url }}"><i class="fab fa-fw fa-github icon-pad-right"></i></a>
+        {% endif %}
+    {% endif %}
+{% endif %}
 {% if software.description %}
     {{ software.description }}
 {% endif %}
 </p>
 
 <!-- [![Repo stats](https://github-readme-stats.vercel.app/api/pin/?username={{ software.user }}&amp;repo={{ software.repo }}&amp;theme=default&amp;show_owner=true")]({{ software.url }}) -->
-
-{% if software.url %}
-    {% if software.repo %}
-        {% if software.user %}
-          <div>
-            <a href="{{ software.url }}" rel="external nofollow noopener" target="_blank">
-              <img alt="{{ software.user }}/{{ software.repo }}" src="https://github-readme-stats.vercel.app/api/pin/?username={{ software.user }}&amp;repo={{ software.repo }}&amp;theme=default&amp;show_owner=true">
-            </a>
-          </div>
-        {% endif %}
-    {% endif %}
-{% endif %}
 
 {% if software.pypi %}
     {% highlight bash %}
@@ -61,16 +61,16 @@ window.addEventListener('load', function() {
   const toggleButton = document.getElementById('toggle-all-details');
   if (toggleButton) {
     let allExpanded = false;
-    
+
     toggleButton.addEventListener('click', function() {
       const allDetails = document.querySelectorAll('details');
-      
+
       allExpanded = !allExpanded;
-      
+
       allDetails.forEach(function(details) {
         details.open = allExpanded;
       });
-      
+
       toggleButton.textContent = allExpanded ? 'Collapse All' : 'Expand All';
     });
   } else {
