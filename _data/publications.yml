@@ -118,7 +118,7 @@
   date: 2023-12-15
   pdf: "https://www.mlsb.io/papers_2023/Parameter-Efficient_Fine-Tuning_of_Protein_Language_Models_Improves_Prediction_of_Protein-Protein_Interactions.pdf"
 
-- title: "Democratizing protein language odels with parameter-efficient fine-tuning"
+- title: "Democratizing protein language models with parameter-efficient fine-tuning"
   type: journal
   authors: "Sledzieski, Kshirsagar, Baek, Berger, Dodhia, Lavista Ferres"
   venue: "Proceedings of the National Academy of Sciences"
