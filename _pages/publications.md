@@ -4,7 +4,9 @@ title: "Publications"
 ---
 
 # Publications
+
 \* Equal contribution
+\+ Co-corresponding
 
 {% assign types = site.data.publications | group_by: "type" %}
 {% for pub_group in types %}
@@ -16,7 +18,7 @@ title: "Publications"
 <span class="publicationtitle"><b>{{ publication.title }}</b></span><br>
 {% assign authors = publication.authors | split: ", " %}
 {% for member in authors %}
-    {% if member == "Sledzieski" or member == "Sledzieski*" %}
+    {% if member == "Sledzieski" or member == "Sledzieski*" or member=="Sledzieski+" %}
         <b>{{ member }}</b>,
     {% else %}
         {{ member }},

@@ -2,9 +2,9 @@
 .DEFAULT_GOAL := help
 
 .PHONY: all
-all: clean cv latexclean build ## Clean, generate the CV, clean the latex build files, build the site
+all: clean cv publications latexclean build ## Clean, generate the CV, clean the latex build files, build the site
 
-.PHONY: clean 
+.PHONY: clean
 clean: latexclean ## Clean the site
 	rm -rf _site
 
@@ -14,6 +14,11 @@ cv: ## Generate the CV in PDF format
 	xelatex -output-directory=latex latex/main.tex -
 	xelatex -output-directory=latex latex/main.tex -
 	cp latex/main.pdf assets/files/Sledzieski_Samuel_CV.pdf
+
+.PHONY: publications
+publications: ## Generate the publication markdown file
+	python scripts/generate_publication_list.py --sort ascending -o assets/files/publications.md --include-preprints
+	cat assets/files/publications.md
 
 .PHONY: latexclean
 latexclean: ## Clean the latex build files
