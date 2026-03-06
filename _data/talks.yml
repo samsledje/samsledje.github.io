@@ -37,15 +37,14 @@
   venue: "MLCB"
   date: 2025-09-11
   url: "https://www.youtube.com/live/PxlXNbsSuxw?feature=shared&t=27927"
+# - title: "Proteomics at genome scale: connecting molecules to systems with biological foundation models"
+#   venue: "European Molecular Biology Lab"
+#   date: 2026-01-14
 
-- title: "Proteomics at genome scale: connecting molecules to systems with biological foundation models"
-  venue: "European Molecular Biology Lab"
-  date: 2026-01-14
+# - title: "Proteomics at genome scale: connecting molecules to systems with biological foundation models"
+#   venue: "Johns Hopkins University"
+#   date: 2026-02-06
 
-- title: "Proteomics at genome scale: connecting molecules to systems with biological foundation models"
-  venue: "Johns Hopkins University"
-  date: 2026-02-06
-
-- title: "Proteomics at genome scale: connecting molecules to systems with biological foundation models"
-  venue: "Helmholtz Munich"
-  date: 2026-02-09
+# - title: "Proteomics at genome scale: connecting molecules to systems with biological foundation models"
+#   venue: "Helmholtz Munich"
+#   date: 2026-02-09
