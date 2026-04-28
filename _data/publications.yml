@@ -144,7 +144,7 @@
 
 - title: "Decoding the functional interactome of non-model organisms with PHILHARMONIC"
   type: conference
-  authors: "Sledzieski, Versavel, Singh, Ocitti, Devkota, Kumar, Shhpilker, Roger, Yang, Lewinski, Putnam, Berger, Klein-Seetharaman, Cowen"
+  authors: "Sledzieski, Versavel, Singh, Ocitti, Devkota, Kumar, Shpilker, Roger, Yang, Lewinski, Putnam, Berger, Klein-Seetharaman, Cowen"
   venue: "Conference on Research in Computational Molecular Biology (RECOMB)"
   extra: "2025"
   date: 2025-04-15
@@ -203,7 +203,7 @@
   doi: "10.1145/3765612.3767301"
   pdf: "https://dl.acm.org/doi/10.1145/3765612.3767301"
 
-- title: "Reverse Distillation: Disentangling and Scaling Protein Language Model Representations"
+- title: "Reverse Distillation: Consistently Scaling Protein Language Model Representations"
   type: conference
   authors: "Catrina, Bepler, Sledzieski+, Singh+"
   venue: "International Conference on Learning Representations"
@@ -225,3 +225,11 @@
   doi: "10.1101/2025.06.12.659353"
   pdf: "https://www.biorxiv.org/content/10.1101/2025.06.12.659353v1"
   code: "https://github.com/samsledje/RocketSHP"
+
+- title: "MIMIC: A Generative Multimodal Foundation Model for Biomolecules"
+  type: preprint
+  authors: "Golkar, Kovalic*, Espejo Morales*, Sledzieski*, Li*, Sokolova, Krawezik, Bietti, Skok Gibbs, Klypa, Xiong, Lanusse, Parker, Cho, Cranmer, Hehir, McCabe, Meyer, Morel, Mukhopadhyay, Pettee, Qu, Shen, Fouhey, Sotoudeh, Mulligan, Cossio, Hanson, Jones, Troyanskaya, Ho"
+  venue: arXiv
+  date: 2026-04-27
+  doi: "10.48550/arXiv.2604.24506"
+  pdf: "https://arxiv.org/abs/2604.24506"

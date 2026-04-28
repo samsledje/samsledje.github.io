@@ -32,7 +32,7 @@ PUBLICATIONS
 
 [16] Kshirsagar, Meller, Humphreys, Sledzieski, Xu, Dodhia, Horvitz, Berger, Bowman, Lavista Ferres, Baker, Baek. "Rapid and accurate prediction of protein homo-oligomer symmetry." Nature Communications 16(2017) (2025).
 
-[17] Sledzieski, Versavel, Singh, Ocitti, Devkota, Kumar, Shhpilker, Roger, Yang, Lewinski, Putnam, Berger, Klein-Seetharaman, Cowen. "Decoding the functional interactome of non-model organisms with PHILHARMONIC." Conference on Research in Computational Molecular Biology (RECOMB) 2025 (2025).
+[17] Sledzieski, Versavel, Singh, Ocitti, Devkota, Kumar, Shpilker, Roger, Yang, Lewinski, Putnam, Berger, Klein-Seetharaman, Cowen. "Decoding the functional interactome of non-model organisms with PHILHARMONIC." Conference on Research in Computational Molecular Biology (RECOMB) 2025 (2025).
 
 [18] Sledzieski, Hanson. "RocketSHP: Ultra-fast proteome-scale prediction of protein dynamics." bioRxiv (2025).
 
@@ -44,4 +44,6 @@ PUBLICATIONS
 
 [22] Sledzieski, Hanson. "The landscape of machine learning approaches for modeling protein conformational ensembles." Current Opinion in Structural Biology (2026).
 
-[23] Catrina, Bepler, Sledzieski+, Singh+. "Reverse Distillation: Disentangling and Scaling Protein Language Model Representations." International Conference on Learning Representations 2026 (2026).
+[23] Catrina, Bepler, Sledzieski+, Singh+. "Reverse Distillation: Consistently Scaling Protein Language Model Representations." International Conference on Learning Representations 2026 (2026).
+
+[24] Golkar, Kovalic, Espejo Morales, Sledzieski, Li, Sokolova, Krawezik, Bietti, Skok Gibbs, Klypa, Xiong, Lanusse, Parker, Cho, Cranmer, Hehir, McCabe, Meyer, Morel, Mukhopadhyay, Pettee, Qu, Shen, Fouhey, Sotoudeh, Mulligan, Cossio, Hanson, Jones, Troyanskaya, Ho. "MIMIC: A Generative Multimodal Foundation Model for Biomolecules." arXiv (2026).
