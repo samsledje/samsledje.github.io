@@ -1,9 +1,18 @@
 #%%
+import argparse
 import yaml
+from collections import defaultdict
 
 YAML_INPUT = "_data/publications.yml"
+SOFTWARE_INPUT = "_data/software.yml"
+DOWNLOADS_INPUT = "_data/package_downloads.yml"
 LATEX_TEMPLATE = "latex/main_template.tex"
 LATEX_OUTPUT = "latex/main.tex"
+
+parser = argparse.ArgumentParser()
+parser.add_argument("--pypi", action=argparse.BooleanOptionalAction, default=True)
+parser.add_argument("--github", action=argparse.BooleanOptionalAction, default=True)
+args = parser.parse_args()
 # %%
 
 # Read YAML file
@@ -129,13 +138,77 @@ for i, row in enumerate(preprint_pubs):
 
 print(new_text)
 # %%
+# Load software data and download counts
+with open(SOFTWARE_INPUT, "r") as f:
+    software_data = yaml.safe_load(f)
+
+pypi_downloads = {}
+github_stars = {}
+try:
+    with open(DOWNLOADS_INPUT, "r") as f:
+        downloads_cache = yaml.safe_load(f)
+    if args.pypi:
+        pypi_downloads = downloads_cache.get("pypi", {})
+    if args.github:
+        github_stars = downloads_cache.get("github_stars", {})
+except FileNotFoundError:
+    print(f"Warning: {DOWNLOADS_INPUT} not found. Run 'make downloads' first.")
+
+def format_software_entry(item, pypi_downloads, github_stars):
+    title = item["title"]
+    url = item.get("url", "")
+    pypi = item.get("pypi")
+    gh_key = f"{item['user']}/{item['repo']}" if "user" in item and "repo" in item else None
+
+    entry = f"\\Entry\n{{\\textbf{{{title}}}}}\n\\hfill {url}\n"
+
+    stats = []
+    if pypi:
+        count = pypi_downloads.get(pypi, 0)
+        if count:
+            stats.append(f"{count // 1000}k+ PyPI downloads")
+    if gh_key:
+        stars = github_stars.get(gh_key, 0)
+        if stars:
+            stats.append(f"{stars:,} GitHub stars")
+    if stats:
+        entry += f"\\Gap\n\\Item\n{', '.join(stats)}\n"
+
+    entry += "\\BigGap\n"
+    return entry
+
+def sort_key(item, pypi_downloads, github_stars):
+    pypi = item.get("pypi")
+    gh_key = f"{item['user']}/{item['repo']}" if "user" in item and "repo" in item else None
+    downloads = pypi_downloads.get(pypi, 0) if pypi else 0
+    stars = github_stars.get(gh_key, 0) if gh_key else 0
+    return -(downloads + stars)
+
+def generate_software_section(software_data, pypi_downloads, github_stars):
+    by_category = defaultdict(list)
+    for item in software_data:
+        by_category[item["type"]].append(item)
+
+    section = ""
+    for category, items in sorted(by_category.items()):
+        section += f"\\Gap\n\\textit{{{category}}}\n\\Gap\n"
+        sorted_items = sorted(items, key=lambda i: sort_key(i, pypi_downloads, github_stars))
+        for item in sorted_items:
+            section += format_software_entry(item, pypi_downloads, github_stars)
+
+    return section
+
+software_text = generate_software_section(software_data, pypi_downloads, github_stars)
+
+# %%
 # Insert the new text into the LaTeX source
 latex_source = latex_template
-insertion_marker = r"%%{REPLACE_WITH_PUBLICATIONS}%%"
 
-# Put new_text into latex_source at insertion_marker
-before, after = latex_source.split(insertion_marker)
+before, after = latex_source.split(r"%%{REPLACE_WITH_PUBLICATIONS}%%")
 latex_source = before + new_text + after
+
+before, after = latex_source.split(r"%%{REPLACE_WITH_SOFTWARE}%%")
+latex_source = before + software_text + after
 
 # Write the new LaTeX source to a file
 with open(LATEX_OUTPUT, "wb") as file:

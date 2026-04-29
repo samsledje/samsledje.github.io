@@ -8,9 +8,13 @@ all: clean cv publications latexclean build ## Clean, generate the CV, clean the
 clean: latexclean ## Clean the site
 	rm -rf _site
 
+.PHONY: downloads
+downloads: ## Fetch PyPI download counts (cached for 30 days)
+	python scripts/get_package_downloads.py
+
 .PHONY: cv
-cv: ## Generate the CV in PDF format
-	python scripts/build_latex_source.py
+cv: downloads ## Generate the CV in PDF format
+	python scripts/build_latex_source.py --pypi --no-github
 	xelatex -output-directory=latex latex/main.tex -
 	xelatex -output-directory=latex latex/main.tex -
 	cp latex/main.pdf assets/files/Sledzieski_Samuel_CV.pdf
@@ -22,7 +26,7 @@ publications: ## Generate the publication markdown file
 
 .PHONY: latexclean
 latexclean: ## Clean the latex build files
-	rm -rf latex/*.aux latex/*.log latex/*.out
+	rm -rf latex/*.aux latex/*.log latex/*.out latex/*.fdb_latexmk latex/*.fls latex/*.xdv
 
 .PHONY: build
 build: ## Build the site

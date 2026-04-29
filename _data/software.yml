@@ -17,7 +17,6 @@
   description: "High-throughput prediction of drug-target interactions using a protein language model and contrastive learning."
 
 - title: "TT3D"
-  pypi: "dscript"
   type: "Protein Networks"
   url: "https://cb.csail.mit.edu/cb/topsyturvy/"
   publication: "https://academic.oup.com/bioinformatics/article/39/11/btad663/7332153"
