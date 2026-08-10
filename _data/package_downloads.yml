@@ -1,14 +1,14 @@
 github_stars:
-  VarunUllanat/mint: 145
-  microsoft/seq2symm: 44
-  samsledje/ConPLex: 149
-  samsledje/D-SCRIPT: 113
+  VarunUllanat/mint: 153
+  microsoft/seq2symm: 46
+  samsledje/ConPLex: 155
+  samsledje/D-SCRIPT: 119
   samsledje/PHILHARMONIC: 12
-  samsledje/RocketSHP: 8
+  samsledje/RocketSHP: 9
   samsledje/TreeFix-TP: 2
   suz11001/virDTL: 2
 pypi:
-  conplex-dti: 31316
-  dscript: 73138
-  philharmonic: 6704
-updated: '2026-04-29'
+  conplex-dti: 33397
+  dscript: 76647
+  philharmonic: 7319
+updated: '2026-08-10'

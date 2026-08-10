@@ -21,15 +21,15 @@
   date: 2024-01-22
 
 - title: "Learning the Language of Biomolecular Interactions"
-  venue: "UC San Diego"
+  venue: "UC San Diego, Department of Medicine"
   date: 2024-03-06
 
 - title: "Learning the Language of Biomolecular Interactions"
-  venue: "MIT Computational and Systems Biology Seminar"
+  venue: "MIT, Computational and Systems Biology Seminar"
   date: 2024-03-14
 
 - title: "Learning the Language of Biomolecular Interactions"
-  venue: "Flatiron Institute"
+  venue: "Flatiron Institute, Center for Computational Biology"
   date: 2024-03-19
 
 - title: "Learning the Language of Biomolecular Interactions"
@@ -37,7 +37,7 @@
   date: 2024-04-02
 
 - title: "Thesis Defense"
-  venue: "MIT"
+  venue: "MIT, EECS"
   date: 2024-04-23
   url: "https://www.youtube.com/watch?v=lJkTFrfQ510"
 
@@ -63,7 +63,7 @@
   date: 2026-01-14
 
 - title: "Proteomics at genome scale: connecting molecules to systems with biological foundation models"
-  venue: "Johns Hopkins University"
+  venue: "Johns Hopkins University, Biomedical Engineering"
   date: 2026-02-06
 
 - title: "Proteomics at genome scale: connecting molecules to systems with biological foundation models"
@@ -71,5 +71,9 @@
   date: 2026-02-09
 
 - title: "Adapting Biological Foundation Models: From Molecules to Systems"
-  venue: "UC San Diego"
+  venue: "UC San Diego, HDSI"
   date: 2026-04-07
+
+- title: "Multimodal biomolecular foundation models advance prediction of protein structure, function, and dynamics"
+  venue: "Harvard University, Chemistry and Chemical Biology"
+  date: 2026-07-30
