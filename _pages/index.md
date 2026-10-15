@@ -1,16 +1,14 @@
 ---
 permalink: /
 title: "Summary"
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
-I'm currently a Flatiron Research Fellow at the [Flatiron Institute][11] [Center for Computational Biology][12], where I'm a bridge fellow between the [Structural and Molecular Biophysics][13] and [Genomics][14] groups. I'm currently interested in integrating protein structures and dynamics with context-specific biological networks to understand the molecular basis of cellular processes.
+I run the [Sledzieski Lab][17] in the [Halıcıoğlu Data Science Institute][15] at the [University of California, San Diego][16]. My research focuses on in integrating protein structures and dynamics with context-specific biological networks to understand the molecular basis of cellular processes.
 
-I completed my PhD in the [Computation and Biology][8] group at [MIT][5] [CSAIL][7], focusing on protein language models for [protein interaction networks][9] and [drug discovery][10].
-
-I did my undergraduate degree in the [Computational Biology Research Lab][2] at the [University of Connecticut][1], where I worked on [phylogenetics][3] and [viral transmission][4].
+Previously, I was a Flatiron Research Fellow at the [Flatiron Institute][11] [Center for Computational Biology][12]. I completed my PhD and SM in the [Computation and Biology][8] group at [MIT][5] [CSAIL][7], focusing on protein language models for [protein interaction networks][9] and [drug discovery][10]. I did my undergraduate degree in the [Computational Biology Research Lab][2] at the [University of Connecticut][1], where I worked on [phylogenetics][3] and [viral transmission][4].
 
 ![Textbooks](/assets/images/textbooks.jpg)
 
@@ -30,3 +28,7 @@ I did my undergraduate degree in the [Computational Biology Research Lab][2] at 
 [12]: https://www.simonsfoundation.org/flatiron/center-for-computational-biology/ "Center for Computational Biology"
 [13]: https://www.simonsfoundation.org/flatiron/center-for-computational-biology/structural-and-molecular-biophysics-collaboration/ "Structural and Molecular Biophysics Group"
 [14]: https://www.simonsfoundation.org/flatiron/center-for-computational-biology/genomics/ "Genomics Group"
+
+[15]: https://datascience.ucsd.edu/ "HDSI"
+[16]: https://ucsd.edu/ "UCSD"
+[17]: https://sledzieskilab.org/ "Sledzieski Lab"

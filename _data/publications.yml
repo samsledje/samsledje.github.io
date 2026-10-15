@@ -217,14 +217,14 @@
   extra: "2026, In Press."
   date: 2026-03-01
 
-- title: "RocketSHP: Ultra-fast proteome-scale prediction of protein dynamics"
+- title: "PLANET-MD: Ultra-fast Proteome-scale Prediction of Allosteric Networks in Proteins"
   type: preprint
   authors: "Sledzieski, Hanson"
   venue: bioRxiv
-  date: 2025-06-17
+  date: 2026-07-07
   doi: "10.1101/2025.06.12.659353"
-  pdf: "https://www.biorxiv.org/content/10.1101/2025.06.12.659353v1"
-  code: "https://github.com/samsledje/RocketSHP"
+  pdf: "https://www.biorxiv.org/content/10.1101/2025.06.12.659353v2"
+  code: "https://github.com/flatironinstitute/PLANET-MD"
 
 - title: "MIMIC: A Generative Multimodal Foundation Model for Biomolecules"
   type: preprint

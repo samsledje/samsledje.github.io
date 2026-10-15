@@ -1,60 +1,59 @@
 # Basic Site Settings
-locale                   : "en-US"
-title                    : "Samuel Sledzieski"
-title_separator          : "-"
-name                     : &name "Samuel Sledzieski"
-description              : &description "Flatiron Research Fellow, Center for Computational Biology"
-url                      : https://samsl.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "samsledje/samsledje.github.io"
+locale: "en-US"
+title: "Samuel Sledzieski"
+title_separator: "-"
+name: &name "Samuel Sledzieski"
+description: &description "Assistant Professor, Halıcıoğlu Data Science Institute"
+url: https://samsl.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl: "" # the subpath of your site, e.g. "/blog"
+repository: "samsledje/samsledje.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "/assets/images/Sledzieski_Samuel_Headshot.jpg"
-  name             : "Samuel Sledzieski"
-  pronouns         : "he/him" 
-  bio              : "Flatiron Research Fellow, Center for Computational Biology"
-  location         : "New York, New York, USA"
-  employer         : "Flatiron Institute"
-  uri              : # URL
-  email            : "ssledzieski@flatironinstitute.org" 
+  avatar: "/assets/images/Sledzieski_Headshot_2026.jpg"
+  name: "Samuel Sledzieski"
+  pronouns: "he/him"
+  bio: "Assistant Professor, Halıcıoğlu Data Science Institute"
+  location: "La Jolla, California, USA"
+  employer: "UCSD"
+  # uri:
+  email: "ssledzieski@ucsd.edu"
 
   # Academic websites
-  arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=BoZ7AqYAAAAJ&hl=en"
-  orcid            : "https://orcid.org/0000-0002-0170-3029"
-  pubmed           : "https://pubmed.ncbi.nlm.nih.gov/?term=samuel+sledzieski"
-  researchgate     : "https://www.researchgate.net/profile/Samuel-Sledzieski"
+  arxiv: # URL - Update with the correct link to your profile
+  googlescholar: "https://scholar.google.com/citations?user=BoZ7AqYAAAAJ&hl=en"
+  orcid: "https://orcid.org/0000-0002-0170-3029"
+  pubmed: "https://pubmed.ncbi.nlm.nih.gov/?term=samuel+sledzieski"
+  researchgate: "https://www.researchgate.net/profile/Samuel-Sledzieski"
 
   # Repositories and software development
-  github           : "samsledje"
-  stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
+  github: "samsledje"
+  stackoverflow: # User number or user number and name (i.e., use "1" or "1/jeff-atwood")
 
   # Social media
-  linkedin         :  "samuelsledzieski/"
+  linkedin: "samuelsledzieski/"
   # medium           : # URL
   # twitter          : "@samsledzieski"
-  bluesky          : "samsl.io"
-  wikipedia        : "samsledje"
-  youtube          : "@SamuelSledzieskiResearch"
+  bluesky: "samsl.io"
+  wikipedia: "samsledje"
+  youtube: "@SamuelSledzieskiResearch"
 
 # Site Settings
-breadcrumbs              : false # true, false (default)
-read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
-talkmap_link             : false #change to true to add link to talkmap on talks page
+breadcrumbs: false # true, false (default)
+read_more: "disabled" # if enabled, adds "Read more" links to excerpts
+talkmap_link: false #change to true to add link to talkmap on talks page
 atom_feed:
-  hide                   : true     # change to true to hide the RSS feed in the footer
-  path                   : # blank (default) uses feed.xml
+  hide: true # change to true to hide the RSS feed in the footer
+  path: # blank (default) uses feed.xml
 
 # Analytics
 analytics:
-  provider               :  "false" # false (default), "google", "google-universal", "google-analytics-4", "custom"
+  provider: "false" # false (default), "google", "google-universal", "google-analytics-4", "custom"
   google:
-    tracking_id          :
-
+    tracking_id:
 
 include:
   - .htaccess
@@ -93,14 +92,12 @@ keep_files:
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
-
 # Conversion
 markdown: kramdown
 highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
-
 
 # Markdown Processing
 kramdown:
@@ -113,13 +110,11 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
-
 # Collections
 collections:
   publications:
     output: true
     permalink: /:collection/:path/
-
 
 # Defaults
 defaults:
@@ -130,19 +125,16 @@ defaults:
     values:
       layout: single
 
-
 # Sass/SCSS
 sass:
   sass_dir: _sass
   style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
-
 
 # Outputting
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
 timezone: America/New_York # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-
 
 # Plugins
 plugins:
@@ -158,7 +150,6 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jemoji
-
 
 # Archives
 #  Type

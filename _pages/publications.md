@@ -5,6 +5,8 @@ title: "Publications"
 
 # Publications
 
+Please see my [Google Scholar](https://scholar.google.com/citations?user=BoZ7AqYAAAAJ&hl=en) for the most up-to-date list of publications.
+
 \* Equal contribution
 \+ Co-corresponding
 

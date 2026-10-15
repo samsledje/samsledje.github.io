@@ -34,16 +34,16 @@ PUBLICATIONS
 
 [17] Sledzieski, Versavel, Singh, Ocitti, Devkota, Kumar, Shpilker, Roger, Yang, Lewinski, Putnam, Berger, Klein-Seetharaman, Cowen. "Decoding the functional interactome of non-model organisms with PHILHARMONIC." Conference on Research in Computational Molecular Biology (RECOMB) 2025 (2025).
 
-[18] Sledzieski, Hanson. "RocketSHP: Ultra-fast proteome-scale prediction of protein dynamics." bioRxiv (2025).
+[18] Schäffer, Sledzieski, Cowen, Berger. "Memory-efficient, accelerated protein interaction inference with Blocked, Multi-GPU D-SCRIPT." Bioinformatics 41(10): btaf564 (2025).
 
-[19] Schäffer, Sledzieski, Cowen, Berger. "Memory-efficient, accelerated protein interaction inference with Blocked, Multi-GPU D-SCRIPT." Bioinformatics 41(10): btaf564 (2025).
+[19] Ocitti, Versavel, Sledzieski, Cowen. "RDS: A ReCIPE for overlapping community detection in biological networks." ACM Conference on Bioinformatics, Computational Biology, and Health Informatics (ACM-BCB) 2025 (2025).
 
-[20] Ocitti, Versavel, Sledzieski, Cowen. "RDS: A ReCIPE for overlapping community detection in biological networks." ACM Conference on Bioinformatics, Computational Biology, and Health Informatics (ACM-BCB) 2025 (2025).
+[20] Ullanat, Jing, Sledzieski, Berger. "Learning the language of protein-protein interactions." Nature Communications 17(1199) (2026).
 
-[21] Ullanat, Jing, Sledzieski, Berger. "Learning the language of protein-protein interactions." Nature Communications 17(1199) (2026).
+[21] Sledzieski, Hanson. "The landscape of machine learning approaches for modeling protein conformational ensembles." Current Opinion in Structural Biology (2026).
 
-[22] Sledzieski, Hanson. "The landscape of machine learning approaches for modeling protein conformational ensembles." Current Opinion in Structural Biology (2026).
+[22] Catrina, Bepler, Sledzieski+, Singh+. "Reverse Distillation: Consistently Scaling Protein Language Model Representations." International Conference on Learning Representations 2026 (2026).
 
-[23] Catrina, Bepler, Sledzieski+, Singh+. "Reverse Distillation: Consistently Scaling Protein Language Model Representations." International Conference on Learning Representations 2026 (2026).
+[23] Golkar, Kovalic, Espejo Morales, Sledzieski, Li, Sokolova, Krawezik, Bietti, Skok Gibbs, Klypa, Xiong, Lanusse, Parker, Cho, Cranmer, Hehir, McCabe, Meyer, Morel, Mukhopadhyay, Pettee, Qu, Shen, Fouhey, Sotoudeh, Mulligan, Cossio, Hanson, Jones, Troyanskaya, Ho. "MIMIC: A Generative Multimodal Foundation Model for Biomolecules." arXiv (2026).
 
-[24] Golkar, Kovalic, Espejo Morales, Sledzieski, Li, Sokolova, Krawezik, Bietti, Skok Gibbs, Klypa, Xiong, Lanusse, Parker, Cho, Cranmer, Hehir, McCabe, Meyer, Morel, Mukhopadhyay, Pettee, Qu, Shen, Fouhey, Sotoudeh, Mulligan, Cossio, Hanson, Jones, Troyanskaya, Ho. "MIMIC: A Generative Multimodal Foundation Model for Biomolecules." arXiv (2026).
+[24] Sledzieski, Hanson. "PLANET-MD: Ultra-fast Proteome-scale Prediction of Allosteric Networks in Proteins." bioRxiv (2026).
